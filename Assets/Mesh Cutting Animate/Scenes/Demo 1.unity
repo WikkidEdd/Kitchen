@@ -1,0 +1,3374 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 8
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+  m_AmbientEquatorColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+  m_AmbientGroundColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 3
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+--- !u!157 &4
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 11
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_TemporalCoherenceThreshold: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 9
+    m_Resolution: 1
+    m_BakeResolution: 50
+    m_TextureWidth: 1024
+    m_TextureHeight: 1024
+    m_AO: 1
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 0
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 1
+    m_BakeBackend: 0
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 500
+    m_PVRBounces: 2
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVRFilteringMode: 0
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ShowResolutionOverlay: 1
+  m_LightingDataAsset: {fileID: 0}
+  m_UseShadowmask: 0
+--- !u!196 &5
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666666
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &61939885
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100004, guid: b0aedc2611c72ab4bad81f9a4803f1b1, type: 3}
+  m_PrefabInternal: {fileID: 1177980254}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 61939887}
+  - component: {fileID: 61939886}
+  - component: {fileID: 61939888}
+  m_Layer: 0
+  m_Name: wind 03
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!33 &61939886
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300002, guid: b0aedc2611c72ab4bad81f9a4803f1b1,
+    type: 3}
+  m_PrefabInternal: {fileID: 1177980254}
+  m_GameObject: {fileID: 61939885}
+  m_Mesh: {fileID: 4300004, guid: b0aedc2611c72ab4bad81f9a4803f1b1, type: 3}
+--- !u!4 &61939887
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400004, guid: b0aedc2611c72ab4bad81f9a4803f1b1, type: 3}
+  m_PrefabInternal: {fileID: 1177980254}
+  m_GameObject: {fileID: 61939885}
+  m_LocalRotation: {x: -0.7071067, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -0.13002518, y: 0.008328492, z: -0.0073673483}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 305868501}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &61939888
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300002, guid: b0aedc2611c72ab4bad81f9a4803f1b1,
+    type: 3}
+  m_PrefabInternal: {fileID: 1177980254}
+  m_GameObject: {fileID: 61939885}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: b4db8713603ea45459359e7752ec5376, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!43 &80008583
+Mesh:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: body(Clone)
+  serializedVersion: 8
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 348
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 147
+    localAABB:
+      m_Center: {x: -0.000000014901161, y: -0.0015461072, z: -0.00057187676}
+      m_Extent: {x: 0.17154619, y: 0.16535488, z: 0.4590402}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 0000010002000300020001000200030004000100050003000500010006000700060001000600080005000800060009000a000900060009000b0008000b0009000c000d000c0009000c000e000b000e000c000f0010000f000c000f0011000e0011000f001200130012000f001200140011001400120015001600150012001500170014001700150018001900180015001a000b000e000b001a001b001c000e0011000e001c001a001d001100140011001d001c001e001400170014001e001d001f001b001a0020001d001e001b0008000b0008001b002100210005000800050021002200220003000500030022002300230004000300040023002400250024002300260023002200270022002100280021001b0029002a002b002c002b002d002e002f0030002f002e003100320033003400350036003700380039003a003b003c003d003e003f0040003f003e0041004200430044004500440043004400450046004300470045004700430048004900480043004a004600450046004a004b004c004500470045004c004a004d004b004a004e004a004c004f00500048005100520050005300500052005000530054005200550053005500520056005700560052005600580055005800560059005a005900560059005b0058005b0059005c005d005c0059005c005e005b005e005c005f0060005f005c00610054005300540061006200630053005500530063006100640055005800550064006300650058005b0058006500640066005b005e005b00660065006700620061006800610063006900630064006a00640065006b00650066006c004c0062006d006e006f006e006d007000710070006d007000710072007300740075007400730076007700780079007a007b007c007d007e007f008000810082008300840085008400830086008700880089008a008b008c008d008e008f00900091009200
+  m_Skin: []
+  m_VertexData:
+    m_CurrentChannels: 139
+    m_VertexCount: 147
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 24
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 32
+      format: 0
+      dimension: 4
+    m_DataSize: 7056
+    _typelessdata: 4560ed3350d685bdc495823eb8bbe8340b5516bee9397d3fe48bf03ee542753f81792fbf296138bf72ebdabd000080bfd9a9af3da9c4d4bd203a193e0dac073f690640bfe489ca3eed8d063fc0e4573fed4b51bf5c6913bf8df4603b000080bff26cf83d277886bd02b0183ecede5c3fddf019be3927f73ee48bf03ec0e4573f3d4c9ebe088e69bffc74893e000080bfe66cf83d73ddfbbd25b233bd0408133f438a51bf4bd1513ced8d063f9a863a3f929051bf670613bf20f8c03b000080bfcda92f3ed4fe87bd85bf36bd145a7e3f7403e8bd4e933abae48bf03e9a863a3f2dfbe7bdcb557ebf42a13d3c000080bf76c588b317e82abe873c33bd8b636b3902fd7fbf0d771c3ce8d5143f9a863a3f000080bf75506bb98de70e37000080bf4683db32b4c30ebe5e73193e3b60a03b0f4f6fbf01d5b53ee8d5143fc0e4573f25ff7fbfc6e9a6bbf9adc339000080bf4560ed3350d685bdc495823eb8bbe8340b5516bee9397d3fed8d063fe542753f46eb6cbf6cdcbfbe3bcd63bd000080bfee6cf8bd66ddfbbd0ab233bdc11813bfc38151bf6a27153ce41d233f9a863a3f138551bfc716133fad42c1bb000080bfc5a9afbda2c4d4bd263a193e4abd08bfb4c13ebfe673cc3ee41d233fc0e4573f4d5050bff1cb143f29457cbb000080bf4560ed3350d685bdc495823eb8bbe8340b5516bee9397d3fe8d5143fe542753f3feb6cbf89dcbf3e37ce633d000080bfcfa92fbec7fe87bd5ebf36bd3e797ebfc3abddbdca1e583cdf65313f9a863a3f2af4ddbd887a7e3f49db27bc000080bfe06cf8bd197886bd0db0183e61c55ebfc52012be1c73f13edf65313fc0e4573f8bd126be60947c3f0b5306bb000080bf4560ed3350d685bdc495823eb8bbe8340b5516bee9397d3fe41d233fe542753f79792fbf3061383fcaebda3d000080bfe76cf8bd9caed93cb7cc39bd69de2fbfe6003a3f82833ebcdaad3f3f9a863a3f24063a3f20de2f3f54baa3bb000080bfc4a9afbd57c3a43ce925183e10b826bf72ee203ffea3d93edaad3f3fc0e4573fef8d383f74fb2f3fedf0b33d000080bf4560ed3350d685bdc495823eb8bbe8340b5516bee9397d3fdf65313fe542753f16ebc53ea58a693f59a50a3e000080bf74b30cb3d9519d3d67103bbdf6e3b3ba26d27f3ff71619bdd6f54d3f9a863a3fbdf67f3fd5e9023b7ec0883c000080bfe4e3933326e7633d02bb2c3ee2e8e7baee6f5d3f2475003fd6f54d3fc0e4573f7df17f3fa94f13bc05d99b3c000080bf4560ed3350d685bdc495823eb8bbe8340b5516bee9397d3fdaad3f3fe542753fc0f6693f8f90cd3e9312743d000080bfe26cf83db5aed93cd2cc39bd7a0c2f3f00b03a3f59b0cebcd03d5c3f9a863a3fa2b33a3f82232fbf9bd00dbc000080bfd3a9af3d58c3a43ce725183e5db8243fda26213f9402df3ed03d5c3fc0e4573ff83f3b3f77642cbf57b8dbbd000080bf4560ed3350d685bdc495823eb8bbe8340b5516bee9397d3fd6f54d3fe542753fbff6693f8e90cdbe681374bd000080bfcda92f3ed4fe87bd85bf36bd145a7e3f7403e8bd4e933abacc856a3f9a863a3ff6fde7bda4577ebf847d0f3c000080bff26cf83d277886bd02b0183ecede5c3fddf019be3927f73ecc856a3fc0e4573f306ce2bc68a577bf6df480be000080bf4560ed3350d685bdc495823eb8bbe8340b5516bee9397d3fd03d5c3fe542753f09ebc53ea78a69bf71a50abe000080bfd9a9afbda69f453b839a83beeeca2abf4f63203fe150cebedaad3f3f75281d3ff8f0323fa4a9363f803344bd000080bff56cf8bd718589bd725583be171d5bbf0747fcbd739200bfdf65313f75281d3f652e07be98b77d3f744e94bc000080bf3469c9b37bdf1d3d1eb783be754097b474e97b3ffd4436bed6f54d3f75281d3f0000803fcc334e3499e10bb5000080bfbea9af3d79a0453b869a83be42882b3ff90f203f31deccbed03d5c3f75281d3f0d1b2e3fb9ab3bbfceccd9bb000080bfdb6cf83d7a8589bd765583bed3bb5b3ffbd9fabd5b1bffbecc856a3f75281d3f53180a3d4d9d74bff300963e000080bff79116b444278abda045b0be7fcbfcb4db7de9be6ed463bfdf65313fa094ff3e8f2c013e8202623f5da0e7be000080bff79116b444278abda045b0be7fcbfcb4db7de9be6ed463bfd03d5c3fa094ff3e5f91963e69c159bfba2adf3e000080bfdba9afbdf7d1d7bd641083be393a05bfdd703ebf90a6d6bee41d233f75281d3f5d0451bfc7c8133ff35231bc000080bf7ccf1ab45d4a10bec9f382be23ce96bb21166dbfd820c1bee8d5143f75281d3f35ff7fbfd53ca13b95cdfa38000080bfc2a9af3d00d2d7bd671083bea338063fce3e3dbf8965d8beed8d063f75281d3f911150bf2c1e15bf38182d3c000080bfdb6cf83d7a8589bd765583bed3bb5b3ffbd9fabd5b1bffbee48bf03e75281d3f2de194bec88c6abf31278dbe000080bff79116b444278abda045b0be7fcbfcb4db7de9be6ed463bfe48bf03ea094ff3ef84338bf82281ebfbe16a23e000080bff79116b444278abda045b0be7fcbfcb4db7de9be6ed463bfed8d063fa094ff3efb1b70bfa3099ebe30f7213e000080bff79116b444278abda045b0be7fcbfcb4db7de9be6ed463bfe8d5143fa094ff3ef81b70bfc0099e3e0af721be000080bff79116b444278abda045b0be7fcbfcb4db7de9be6ed463bfe41d233fa094ff3efe4338bf81281e3fa416a2be000080bf2fdd67b41e87c83d6a25ebbed448e1b41a33aabb1eff7fbfdaad3f3fa094ff3e5e10413f9b1c283f0a8f5fbb000080bfe7a9afbd1e5c033eaa35ebbe7845ceb91933aabb1cff7fbfdaad3f3f75281d3f60836c3f1ceec33e00161abb000080bfb0db66b47cbd273e4652ebbe2e28e1b41a33aabb1eff7fbfd6f54d3f75281d3f0000803f8e01303507fde2b4000080bf2fdd67b41e87c83d6a25ebbed448e1b41a33aabb1eff7fbfd6f54d3fa094ff3ef188fd3e14685ebf22dc933b000080bfb0a9af3d225c033eac35ebbedbd4cd391933aabb1cff7fbfd03d5c3f75281d3fb9900b3f639b56bf24b2953b000080bf3469c9b37bdf1d3d1eb783be0681a9bef1644d3f1d4bfe3ed6f54d3f75281d3f5990713fc01f903eae6f323e000080bfe7a9afbd1e5c033eaa35ebbe0481a9beef644d3f1c4bfe3edaad3f3f75281d3f5990713fbd1f903eaa6f323e000080bfd9a9afbda69f453b839a83be0681a9bef1644d3f1d4bfe3edaad3f3f75281d3f5990713fc01f903eae6f323e000080bfb0db66b47cbd273e4652ebbefa80a9bef5644d3f1a4bfe3ed6f54d3f75281d3f5b90713fb81f903e9e6f323e000080bfd9a9afbda69f453b839a83beec264bbfb8dbb1beafc9ffbedaad3f3f75281d3f733c433dc473483f97c31ebf000080bf2fdd67b41e87c83d6a25ebbeec264bbfb8dbb1beafc9ffbedaad3f3fa094ff3ed3eb843e7e9c0c3f3a574bbf000080bff79116b444278abda045b0beec264bbfb8dbb1beb1c9ffbedf65313fa094ff3eb7f7b0bcfa2a563f4d220cbf000080bf2fdd67b41e87c83d6a25ebbe333e93be3e7950bf850d01bfdaad3f3fa094ff3e762f753f70647abe86001bbe0000803fd9a9afbda69f453b839a83be333e93be3f7950bf850d01bfdaad3f3f75281d3f762f753f71647abe86001bbe0000803fe7a9afbd1e5c033eaa35ebbe333e93be3e7950bf850d01bfdaad3f3f75281d3f762f753f70647abe86001bbe0000803ff79116b444278abda045b0bee0e3463fae0b09bf3faca9bed03d5c3fa094ff3e5cb78b3e218b40bec388713f000080bfb0a9af3d225c033eac35ebbee0e3463fae0b09bf3daca9bed03d5c3f75281d3f59b78b3e1f8b40bec488713f000080bfbea9af3d79a0453b869a83bee0e3463fae0b09bf3daca9bed03d5c3f75281d3f59b78b3e1f8b40bec488713f000080bfb0a9af3d225c033eac35ebbe95b8493ea0480fbf82104ebfd03d5c3f75281d3f9525f13e7c822abfb811143f000080bff79116b444278abda045b0be94b8493ea2480fbf82104ebfd03d5c3fa094ff3e94276d3efe6e45bfc7ca173f000080bf2fdd67b41e87c83d6a25ebbe95b8493ea2480fbf82104ebfd6f54d3fa094ff3e2a42d73ebe8731bf76c8153f000080bfbea9af3d79a0453b869a83be0781a93ef6644d3f0e4bfe3ed03d5c3f75281d3f5990713fc51f90bea56f32be000080bfb0db66b47cbd273e4652ebbe0781a93ef6644d3f0e4bfe3ed6f54d3f75281d3f5990713fc51f90bea56f32be000080bf3469c9b37bdf1d3d1eb783be0781a93ef6644d3f0e4bfe3ed6f54d3f75281d3f5990713fc51f90bea56f32be000080bfb0a9af3d225c033eac35ebbef180a93ef6644d3f194bfe3ed03d5c3f75281d3f5c90713faf1f90be926f32be000080bf14a9cbbd90534a3d069a923e000080bf4977963456abe734d068f93c7226023f921fce344c8e1bbe69077d3f000080bfd20090bde04ee03d2b46a53e9cba29bf94dc233f4fc5c63e0c9ab03d9b90c93e174fc4343bc204bfd7e25a3f000080bfd60090bdaf0df13d32098a3ea2ba29bfc8243a3fbe5d36bed068f93c9b90c93e9e014bbe221d713d47777a3f000080bf99e933377da8093e2b02ad3e2cddd834d5e25a3f3fc2043f0c9ab03d4fd48e3e2cd28a343fc204bfd5e25a3f000080bf976a3337bc7f153ee57c863e0000000083a6783fd19a73bed068f93c4fd48e3e16d7e434cf9a733e84a6783f000080bfa6003437439e953d700fc43eaa0c0535776b173fcb6a4e3ff26c113e4fd48e3ec1bf7233cc6a4ebf776b173f000080bfd20090bd146d873d0093b53e8b7a40bf0d2a9f3e2ad8143ff26c113e9b90c93e366b23bddbd566bf9c6cdc3e000080bf14a9cbbd90534a3d069a923e000080bf4977963456abe7340c9ab03d7226023f2749fb32c96a4ebf7a6b173f000080bf0d0c903ddb4ee03d2a46a53eaaba293f8ddc233f3fc5c63e0c9ab03d0a30283e26479f3440c204bfd4e25a3f000080bf0a0c903dae0df13d30098a3ea3ba293fc4243a3fdd5d36bed068f93c0a30283edf014b3ec51c713d44777a3f000080bf0d0c903d106d873dfe92b53e957a403fff299f3e1ed8143ff26c113e0a30283e3f6b233ddcd566bf966cdc3e000080bf45b4cb3d82534a3d039a923e0000803fb33587b47199d8b4d068f93cd8dd4a3dba8bc1346b8e1bbe68077d3f000080bf45b4cb3d82534a3d039a923e0000803fb33587b47199d8b40c9ab03dd8dd4a3d74be1833cd6a4ebf756b173f000080bf14a9cbbd90534a3d069a923e000080bf4977963456abe734f26c113e7226023fa7e9b7b468077dbf748e1bbe000080bfd40090bd60c9533c4b63b13e8f7a40bf5b36f1be3b27ec3ee28c4a3e9b90c93ec16a233ddf153bbfad712ebf000080bf14a9cbbd90534a3d069a923e000080bf4977963456abe734e28c4a3e7226023f05e609b5786b17bfcb6a4ebf000080bfd70090bd8ee89abcd92a9b3ea4ba29bfc4243abfe25d363e67d6813e9b90c93e4207ffb4d79a73be83a678bf000080bfaa053337db5741bd25b79e3e0000000083a678bfdc9a733e67d6813e4fd48e3e1be8f9b4dc9a73be83a678bf000080bf3ca2333737db0ebbd223be3e83a10c34cc6a4ebf756b173fe28c4a3e4fd48e3e1b56fab4766b17bfcd6a4ebf000080bfa6863237ebfa11bdbc63703e69b9d0b4d7e25abf3ac204bf5d669e3e4fd48e3e36ce92b43ac2043fd8e25abf000080bfdb0090bd94da2fbcbedb7f3ea9ba29bf8ddc23bf39c5c6be5d669e3e9b90c93e2bc6d0b43ec2043fd6e25abf000080bf14a9cbbd90534a3d069a923e000080bf4977963456abe73467d6813e7226023f901fceb4598e1b3e69077dbf000080bf996f323704d5d23c3049423e2185f5b4ef9a73be81a678bf55f6ba3e4fd48e3ea38f153482a6783ff09a73be000080bfdb0090bdebcc053d15425f3ea7ba29bfd75d36bec1243abf55f6ba3e9b90c93e851baf3481a6783ffb9a73be000080bf14a9cbbd90534a3d069a923e000080bf4977963456abe7345d669e3e7226023f4549fbb2c86a4e3f7c6b17bf000080bf04ce32375bcace3d6a204e3edbb393b437c2043fdae25abf4986d73e4fd48e3efdb4da34dae25a3f37c2043f000080bfd90090bd5cdaaf3d7da1673ea6ba29bf45c5c63e8ddc23bf4986d73e9b90c93e3ff0c433d6e25a3f3ec2043f000080bf14a9cbbd90534a3d069a923e000080bf4977963456abe73455f6ba3e7226023fa0e9b73469077d3f528e1b3e000080bf976a3337bc7f153ee57c863e0000000083a6783fd19a73be4116f43e4fd48e3ed07b0735d49a733e84a6783f000080bfd60090bdaf0df13d32098a3ea2ba29bfc8243a3fbe5d36be4116f43e9b90c93ed8014b3eb7c4cc3e8714653f000080bf14a9cbbd90534a3d069a923e000080bf4977963456abe7344986d73e7226023f05e60935776b173fcc6a4e3f000080bf080c903d9ee89abcd72a9b3ea3ba293fc7243abfb65d363e67d6813e0a30283e9d0c07b5d49a73be84a678bf000080bf0b0c903d41c9533c4963b13e917a403f6536f1be2627ec3ee28c4a3e0a30283eb06b23bddf153bbfab712ebf000080bf050c903db3da2fbcbbdb7f3e9eba293f92dc23bf4cc5c6be5d669e3e0a30283e872856b43dc2043fd6e25abf000080bf040c903de3cc053d12425f3e9eba293feb5d36beca243abf55f6ba3e0a30283e97d2a5b381a6783ffb9a73be000080bf070c903d59daaf3d79a1673e9fba293f3ec5c63e96dc23bf4986d73e0a30283e171a1b35d6e25a3f3ec2043f000080bf0a0c903dae0df13d30098a3ea3ba293fc4243a3fdd5d36be4116f43e0a30283ea8014bbebbc4cc3e8814653f000080bf45b4cb3d82534a3d039a923e0000803fb33587b47199d8b4e28c4a3ed8dd4a3d449ffeb4786b17bfcb6a4ebf000080bf45b4cb3d82534a3d039a923e0000803fb33587b47199d8b467d6813ed8dd4a3dbc8bc1b45d8e1b3e69077dbf000080bf45b4cb3d82534a3d039a923e0000803fb33587b47199d8b45d669e3ed8dd4a3db4be18b3c86a4e3f7c6b17bf000080bf45b4cb3d82534a3d039a923e0000803fb33587b47199d8b455f6ba3ed8dd4a3d4c8ba6346a077d3f3e8e1b3e000080bf45b4cb3d82534a3d039a923e0000803fb33587b47199d8b44986d73ed8dd4a3d449ffe347a6b173fca6a4e3f000080bf45b4cb3d82534a3d039a923e0000803fb33587b47199d8b4f26c113ed8dd4a3d578ba6b468077dbf748e1bbe000080bf924b34376b80613cb541e93e19cb8db7578e1bbe68077d3fb94e293fa97b933ee42f99b469077dbf578e1bbe000080bf16dd12bcc78be83c546dea3eca6c8a3b138e1bbed4067d3fbd061b3ff537ce3e07b18eb468077dbf6e8e1bbe000080bf17dd12bc447bc03cce0aea3ea0558a3b838e1bbed0067d3fb94e293ff537ce3e05394eb464077dbfde8e1bbe000080bf156434375b5d053d5cbcea3ef03b12b85a8e1bbe68077d3fbd061b3fa97b933e148a97b469077dbf5a8e1bbe000080bf69890f3c417bc03cce0aea3e64f78dbb0f8e1bbecc067d3fb94e293fbf7e313e3bab8bb468077dbf6f8e1bbe000080bf6a890f3cca8be83c536dea3e5b038ebb688e1bbec8067d3fbd061b3fbf7e313ea2112ab464077dbfc88e1bbe000080bfd40090bd60c9533c4b63b13e2c795ebffbeb99bd025ffa3eb94e293ff537ce3e9f2486bda5467f3fe1f6163d000080bf16dd12bcc78be83c546dea3e2c795ebffbeb99bd025ffa3ebd061b3ff537ce3e9f2486bda5467f3fe1f6163d000080bfd20090bd146d873d0093b53e2c795ebffbeb99bd025ffa3ebd061b3ff537ce3e9f2486bda5467f3fe1f6163d000080bf17dd12bc447bc03cce0aea3e2b795ebf7bec99bd045ffa3eb94e293ff537ce3e0e2586bda4467f3f60f7163d000080bfd20090bd146d873d0093b53e1ba688be3770593f5b23e93ebd061b3ff537ce3ec6b6763f1cde703e2921013e000080bf156434375b5d053d5cbcea3e19a688be3770593f5723e93ebd061b3fa97b933ec6b6763f18de703e2421013e000080bfa6003437439e953d700fc43e1ba688be3770593f5923e93ebd061b3fa97b933ec6b6763f1cde703e2821013e000080bf156434375b5d053d5cbcea3effcec7be63f0433fff01033fbd061b3fa97b933e8cb36b3fed19a63e9c1d5e3e000080bfd20090bd146d873d0093b53effcec7be63f0433f0002033fbd061b3ff537ce3e8cb36b3fed19a63e9d1d5e3e000080bf16dd12bcc78be83c546dea3effcec7be63f0433f0002033fbd061b3ff537ce3e8cb36b3fed19a63e9d1d5e3e000080bfa6003437439e953d700fc43e3c0b8b3e071e573f1f3af03ebd061b3fa97b933e1261763f73cd72be6a9207be000080bf6a890f3cca8be83c536dea3e3c0b8b3e071e573f1f3af03ebd061b3fbf7e313e1261763f73cd72be6a9207be000080bf0d0c903d106d873dfe92b53e3c0b8b3e071e573f1f3af03ebd061b3fbf7e313e1261763f73cd72be6a9207be000080bf6a890f3cca8be83c536dea3ec536d33e9e874d3f9a5edc3ebd061b3fbf7e313eb533693f9e26babe679747be000080bfa6003437439e953d700fc43ec536d33e9e874d3f9a5edc3ebd061b3fa97b933eb533693f9e26babe679747be000080bf156434375b5d053d5cbcea3ec536d33e9e874d3f9a5edc3ebd061b3fa97b933eb533693f9e26babe679747be000080bf0d0c903d106d873dfe92b53e27465e3fff589abdd80ffb3ebd061b3fbf7e313e5265863d9d457f3f54cd173d0000803f69890f3c417bc03cce0aea3e27465e3ffe589abdd80ffb3eb94e293fbf7e313e5165863d9d457f3f53cd173d0000803f0b0c903d41c9533c4963b13e27465e3fff589abdda0ffb3eb94e293fbf7e313e5265863d9d457f3f56cd173d0000803f6a890f3cca8be83c536dea3e27465e3f4b599abdd50ffb3ebd061b3fbf7e313e9565863d9d457f3f9ecd173d0000803f0b0c903d41c9533c4963b13e26a6883e696872bfc892373eb94e293fbf7e313e643447bd67b0303e4dda7b3f000080bf924b34376b80613cb541e93e24a6883e696872bfc792373eb94e293fa97b933e603447bd66b0303e4dda7b3f000080bf3ca2333737db0ebbd223be3e25a6883e696872bfc892373eb94e293fa97b933e633447bd67b0303e4dda7b3f000080bf924b34376b80613cb541e93e1a42243f3d8f24bf233fd63eb94e293fa97b933e3a5b97be4fa2973e6482683f000080bf0b0c903d41c9533c4963b13e1b42243f3c8f24bf213fd63eb94e293fbf7e313e395b97be4ca2973e6482683f000080bf69890f3c417bc03cce0aea3e1a42243f3d8f24bf233fd63eb94e293fbf7e313e3a5b97be4fa2973e6482683f000080bf3ca2333737db0ebbd223be3e0ea292bec7f86cbf73247d3eb94e293fa97b933e08a4953d22d5713ee70d783f000080bf17dd12bc447bc03cce0aea3e0ea292bec7f86cbf73247d3eb94e293ff537ce3e08a4953d22d5713ee70d783f000080bfd40090bd60c9533c4b63b13e0ea292bec7f86cbf73247d3eb94e293ff537ce3e08a4953d22d5713ee70d783f000080bf17dd12bc447bc03cce0aea3e7dff37bf5de22ebf5170043eb94e293ff537ce3ebcfdbf3d427bb63d90d97d3f0000803f3ca2333737db0ebbd223be3e7dff37bf5de22ebf5170043eb94e293fa97b933ebcfdbf3d427bb63d90d97d3f0000803f924b34376b80613cb541e93e7dff37bf5de22ebf5170043eb94e293fa97b933ebcfdbf3d427bb63d90d97d3f0000803f
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: -0.000000014901161, y: -0.0015461072, z: -0.00057187676}
+    m_Extent: {x: 0.17154619, y: 0.16535488, z: 0.4590402}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshOptimized: 1
+--- !u!1 &305868498
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: b0aedc2611c72ab4bad81f9a4803f1b1, type: 3}
+  m_PrefabInternal: {fileID: 1177980254}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 305868501}
+  - component: {fileID: 305868500}
+  - component: {fileID: 305868499}
+  m_Layer: 0
+  m_Name: bird
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &305868499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 305868498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5ccdfdd065d0fb42bd4ac3be11c002c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  percentageCut: 1
+  p1: {x: 0.5704134, y: 0.16380876, z: 0.45846832}
+  p2: {x: -0.57145125, y: 0.16380876, z: 0.45846832}
+  p3: {x: 0.5704134, y: -0.16690099, z: 0.45846832}
+  p4: {x: -0.57145125, y: -0.16690099, z: 0.45846832}
+  p5: {x: 0.5704134, y: 0.16380876, z: -0.45961207}
+  p6: {x: -0.57145125, y: 0.16380876, z: -0.45961207}
+  p7: {x: 0.5704134, y: -0.16690099, z: -0.45961207}
+  p8: {x: -0.57145125, y: -0.16690099, z: -0.45961207}
+  p1_trans: {x: -0.6931709, y: 0.51181346, z: -8.858754}
+  p2_trans: {x: 0.4478761, y: 0.5526326, z: -8.872906}
+  p3_trans: {x: -0.6945289, y: 0.65338814, z: -8.559883}
+  p4_trans: {x: 0.44651812, y: 0.69420725, z: -8.574035}
+  p5_trans: {x: -0.7277015, y: 1.3408651, z: -9.251632}
+  p6_trans: {x: 0.41334558, y: 1.3816842, z: -9.265783}
+  p7_trans: {x: -0.72905946, y: 1.4824398, z: -8.952761}
+  p8_trans: {x: 0.4119876, y: 1.5232589, z: -8.966912}
+  pointCenterPlane: {x: 0.5704134, y: -0.0015461147, z: -0.00057187676}
+  listExtraVertexs: []
+  listExtraUVMapping: []
+  listMeshFilter:
+  - {fileID: 573161252}
+  - {fileID: 1329735284}
+  - {fileID: 61939886}
+  listTrianglesInfo:
+  - l_triangles_show: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    l_triangleInfo:
+    - min_value: -0.1715462
+      between_value: -0.12130157
+      max_value: -0.12130152
+      index_triangle: 102
+      min_index_t: 104
+      max_index_t: 103
+      between_index_t: 102
+      min_index_v: 11
+      max_index_v: 8
+      between_index_v: 27
+      index_other_list: 0
+    - min_value: -0.1715462
+      between_value: -0.121301465
+      max_value: -0.12130141
+      index_triangle: 36
+      min_index_t: 38
+      max_index_t: 36
+      between_index_t: 37
+      min_index_v: 11
+      max_index_v: 12
+      between_index_v: 14
+      index_other_list: 1
+    - min_value: -0.1715462
+      between_value: -0.121301465
+      max_value: -0.08577318
+      index_triangle: 72
+      min_index_t: 73
+      max_index_t: 72
+      between_index_t: 74
+      min_index_v: 11
+      max_index_v: 26
+      between_index_v: 14
+      index_other_list: 3
+    - min_value: -0.1715462
+      between_value: -0.12130157
+      max_value: -0.08577318
+      index_triangle: 75
+      min_index_t: 75
+      max_index_t: 76
+      between_index_t: 77
+      min_index_v: 11
+      max_index_v: 26
+      between_index_v: 27
+      index_other_list: 4
+    - min_value: -0.1715462
+      between_value: -0.12130152
+      max_value: -0.08577303
+      index_triangle: 27
+      min_index_t: 28
+      max_index_t: 27
+      between_index_t: 29
+      min_index_v: 11
+      max_index_v: 9
+      between_index_v: 8
+      index_other_list: 5
+    - min_value: -0.1715462
+      between_value: -0.12130141
+      max_value: -0.08577303
+      index_triangle: 30
+      min_index_t: 30
+      max_index_t: 31
+      between_index_t: 32
+      min_index_v: 11
+      max_index_v: 9
+      between_index_v: 12
+      index_other_list: 6
+    - min_value: -0.12130157
+      between_value: -0.12130152
+      max_value: -0.08577319
+      index_triangle: 105
+      min_index_t: 106
+      max_index_t: 107
+      between_index_t: 105
+      min_index_v: 27
+      max_index_v: 33
+      between_index_v: 8
+      index_other_list: 2
+    - min_value: -0.12130157
+      between_value: -0.08577318
+      max_value: -0.0000001402294
+      index_triangle: 96
+      min_index_t: 97
+      max_index_t: 96
+      between_index_t: 98
+      min_index_v: 27
+      max_index_v: 31
+      between_index_v: 26
+      index_other_list: 20
+    - min_value: -0.12130157
+      between_value: -0.08577319
+      max_value: -0.0000001402294
+      index_triangle: 135
+      min_index_t: 137
+      max_index_t: 135
+      between_index_t: 136
+      min_index_v: 27
+      max_index_v: 40
+      between_index_v: 33
+      index_other_list: 21
+    - min_value: -0.12130152
+      between_value: -0.08577319
+      max_value: -0.000000063689114
+      index_triangle: 108
+      min_index_t: 110
+      max_index_t: 109
+      between_index_t: 108
+      min_index_v: 8
+      max_index_v: 5
+      between_index_v: 33
+      index_other_list: 27
+    - min_value: -0.12130152
+      between_value: -0.000000063689114
+      max_value: 0.000000025554652
+      index_triangle: 18
+      min_index_t: 19
+      max_index_t: 18
+      between_index_t: 20
+      min_index_v: 8
+      max_index_v: 6
+      between_index_v: 5
+      index_other_list: 31
+    - min_value: -0.12130152
+      between_value: -0.08577303
+      max_value: 0.000000025554652
+      index_triangle: 21
+      min_index_t: 21
+      max_index_t: 22
+      between_index_t: 23
+      min_index_v: 8
+      max_index_v: 6
+      between_index_v: 9
+      index_other_list: 32
+    - min_value: -0.121301465
+      between_value: -0.12130141
+      max_value: -0.08577302
+      index_triangle: 39
+      min_index_t: 39
+      max_index_t: 41
+      between_index_t: 40
+      min_index_v: 14
+      max_index_v: 15
+      between_index_v: 12
+      index_other_list: 7
+    - min_value: -0.121301465
+      between_value: -0.08577318
+      max_value: -0.00000009378928
+      index_triangle: 81
+      min_index_t: 81
+      max_index_t: 82
+      between_index_t: 83
+      min_index_v: 14
+      max_index_v: 28
+      between_index_v: 26
+      index_other_list: 24
+    - min_value: -0.121301465
+      between_value: -0.08577302
+      max_value: -0.000000032759502
+      index_triangle: 45
+      min_index_t: 47
+      max_index_t: 46
+      between_index_t: 45
+      min_index_v: 14
+      max_index_v: 17
+      between_index_v: 15
+      index_other_list: 29
+    - min_value: -0.121301465
+      between_value: -0.00000009378928
+      max_value: -0.000000032759502
+      index_triangle: 78
+      min_index_t: 79
+      max_index_t: 80
+      between_index_t: 78
+      min_index_v: 14
+      max_index_v: 17
+      between_index_v: 28
+      index_other_list: 30
+    - min_value: -0.12130141
+      between_value: -0.08577303
+      max_value: 0.00000011053684
+      index_triangle: 33
+      min_index_t: 34
+      max_index_t: 33
+      between_index_t: 35
+      min_index_v: 12
+      max_index_v: 13
+      between_index_v: 9
+      index_other_list: 34
+    - min_value: -0.12130141
+      between_value: -0.08577302
+      max_value: 0.00000011053684
+      index_triangle: 42
+      min_index_t: 44
+      max_index_t: 42
+      between_index_t: 43
+      min_index_v: 12
+      max_index_v: 16
+      between_index_v: 15
+      index_other_list: 35
+    - min_value: -0.099443585
+      between_value: -0.07031413
+      max_value: -0.07031413
+      index_triangle: 231
+      min_index_t: 231
+      max_index_t: 232
+      between_index_t: 233
+      min_index_v: 90
+      max_index_v: 89
+      between_index_v: 86
+      index_other_list: 8
+    - min_value: -0.099443585
+      between_value: -0.07031413
+      max_value: -0.07031412
+      index_triangle: 240
+      min_index_t: 240
+      max_index_t: 241
+      between_index_t: 242
+      min_index_v: 93
+      max_index_v: 92
+      between_index_v: 89
+      index_other_list: 9
+    - min_value: -0.099443585
+      between_value: -0.07031413
+      max_value: -0.0703141
+      index_triangle: 222
+      min_index_t: 222
+      max_index_t: 224
+      between_index_t: 223
+      min_index_v: 87
+      max_index_v: 82
+      between_index_v: 86
+      index_other_list: 10
+    - min_value: -0.099443585
+      between_value: -0.07031412
+      max_value: -0.070314094
+      index_triangle: 249
+      min_index_t: 249
+      max_index_t: 250
+      between_index_t: 251
+      min_index_v: 96
+      max_index_v: 95
+      between_index_v: 92
+      index_other_list: 11
+    - min_value: -0.099443585
+      between_value: -0.0703141
+      max_value: -0.07031408
+      index_triangle: 207
+      min_index_t: 207
+      max_index_t: 209
+      between_index_t: 208
+      min_index_v: 81
+      max_index_v: 80
+      between_index_v: 82
+      index_other_list: 12
+    - min_value: -0.099443585
+      between_value: -0.070314094
+      max_value: -0.070314065
+      index_triangle: 168
+      min_index_t: 168
+      max_index_t: 169
+      between_index_t: 170
+      min_index_v: 66
+      max_index_v: 67
+      between_index_v: 68
+      index_other_list: 13
+    - min_value: -0.099443585
+      between_value: -0.070314065
+      max_value: -0.070314065
+      index_triangle: 183
+      min_index_t: 183
+      max_index_t: 184
+      between_index_t: 185
+      min_index_v: 73
+      max_index_v: 72
+      between_index_v: 67
+      index_other_list: 14
+    - min_value: -0.099443585
+      between_value: -0.07031408
+      max_value: -0.070314065
+      index_triangle: 204
+      min_index_t: 204
+      max_index_t: 206
+      between_index_t: 205
+      min_index_v: 79
+      max_index_v: 72
+      between_index_v: 80
+      index_other_list: 15
+    - min_value: -0.08577328
+      between_value: -0.08577318
+      max_value: -0.00000021594018
+      index_triangle: 153
+      min_index_t: 155
+      max_index_t: 153
+      between_index_t: 154
+      min_index_v: 55
+      max_index_v: 53
+      between_index_v: 54
+      index_other_list: 18
+    - min_value: -0.08577328
+      between_value: -0.00000021594018
+      max_value: -0.00000021500341
+      index_triangle: 138
+      min_index_t: 139
+      max_index_t: 140
+      between_index_t: 138
+      min_index_v: 42
+      max_index_v: 43
+      between_index_v: 41
+      index_other_list: 19
+    - min_value: -0.08577328
+      between_value: -0.08577318
+      max_value: -0.00000009378928
+      index_triangle: 144
+      min_index_t: 145
+      max_index_t: 144
+      between_index_t: 146
+      min_index_v: 47
+      max_index_v: 46
+      between_index_v: 48
+      index_other_list: 25
+    - min_value: -0.08577328
+      between_value: -0.00000021500341
+      max_value: -0.00000009378928
+      index_triangle: 147
+      min_index_t: 147
+      max_index_t: 148
+      between_index_t: 149
+      min_index_v: 47
+      max_index_v: 46
+      between_index_v: 49
+      index_other_list: 26
+    - min_value: -0.08577319
+      between_value: -0.0000001441785
+      max_value: -0.0000001402294
+      index_triangle: 132
+      min_index_t: 134
+      max_index_t: 132
+      between_index_t: 133
+      min_index_v: 33
+      max_index_v: 39
+      between_index_v: 34
+      index_other_list: 22
+    - min_value: -0.08577319
+      between_value: -0.0000001441785
+      max_value: -0.000000063689114
+      index_triangle: 111
+      min_index_t: 112
+      max_index_t: 111
+      between_index_t: 113
+      min_index_v: 33
+      max_index_v: 5
+      between_index_v: 34
+      index_other_list: 28
+    - min_value: -0.08577318
+      between_value: -0.00000021594018
+      max_value: -0.0000001402294
+      index_triangle: 150
+      min_index_t: 150
+      max_index_t: 152
+      between_index_t: 151
+      min_index_v: 50
+      max_index_v: 52
+      between_index_v: 51
+      index_other_list: 23
+    - min_value: -0.08577303
+      between_value: 0.000000025554652
+      max_value: 0.00000011053684
+      index_triangle: 24
+      min_index_t: 25
+      max_index_t: 24
+      between_index_t: 26
+      min_index_v: 9
+      max_index_v: 10
+      between_index_v: 6
+      index_other_list: 36
+    - min_value: -0.08577302
+      between_value: -0.000000032759502
+      max_value: 0.00000006886674
+      index_triangle: 48
+      min_index_t: 49
+      max_index_t: 50
+      between_index_t: 48
+      min_index_v: 15
+      max_index_v: 18
+      between_index_v: 17
+      index_other_list: 33
+    - min_value: -0.08577302
+      between_value: 0.00000006886674
+      max_value: 0.00000011053684
+      index_triangle: 51
+      min_index_t: 53
+      max_index_t: 51
+      between_index_t: 52
+      min_index_v: 15
+      max_index_v: 19
+      between_index_v: 18
+      index_other_list: 37
+    - min_value: -0.07031413
+      between_value: -0.07031413
+      max_value: 0.00001063561
+      index_triangle: 228
+      min_index_t: 230
+      max_index_t: 228
+      between_index_t: 229
+      min_index_v: 89
+      max_index_v: 88
+      between_index_v: 86
+      index_other_list: 38
+    - min_value: -0.07031413
+      between_value: -0.0703141
+      max_value: 0.000010640977
+      index_triangle: 219
+      min_index_t: 221
+      max_index_t: 219
+      between_index_t: 220
+      min_index_v: 86
+      max_index_v: 85
+      between_index_v: 82
+      index_other_list: 39
+    - min_value: -0.07031413
+      between_value: 0.00001063561
+      max_value: 0.000010640977
+      index_triangle: 225
+      min_index_t: 225
+      max_index_t: 227
+      between_index_t: 226
+      min_index_v: 86
+      max_index_v: 85
+      between_index_v: 88
+      index_other_list: 40
+    - min_value: -0.07031413
+      between_value: 0.00001063561
+      max_value: 0.0000106575935
+      index_triangle: 234
+      min_index_t: 234
+      max_index_t: 235
+      between_index_t: 236
+      min_index_v: 89
+      max_index_v: 91
+      between_index_v: 88
+      index_other_list: 41
+    - min_value: -0.07031413
+      between_value: -0.07031412
+      max_value: 0.0000106575935
+      index_triangle: 237
+      min_index_t: 238
+      max_index_t: 237
+      between_index_t: 239
+      min_index_v: 89
+      max_index_v: 91
+      between_index_v: 92
+      index_other_list: 42
+    - min_value: -0.07031412
+      between_value: 0.0000106575935
+      max_value: 0.000010694049
+      index_triangle: 243
+      min_index_t: 243
+      max_index_t: 244
+      between_index_t: 245
+      min_index_v: 92
+      max_index_v: 94
+      between_index_v: 91
+      index_other_list: 45
+    - min_value: -0.07031412
+      between_value: -0.070314094
+      max_value: 0.000010694049
+      index_triangle: 246
+      min_index_t: 247
+      max_index_t: 246
+      between_index_t: 248
+      min_index_v: 92
+      max_index_v: 94
+      between_index_v: 95
+      index_other_list: 46
+    - min_value: -0.0703141
+      between_value: -0.07031408
+      max_value: 0.00001067055
+      index_triangle: 210
+      min_index_t: 212
+      max_index_t: 210
+      between_index_t: 211
+      min_index_v: 82
+      max_index_v: 83
+      between_index_v: 80
+      index_other_list: 43
+    - min_value: -0.0703141
+      between_value: 0.000010640977
+      max_value: 0.00001067055
+      index_triangle: 216
+      min_index_t: 216
+      max_index_t: 218
+      between_index_t: 217
+      min_index_v: 82
+      max_index_v: 83
+      between_index_v: 85
+      index_other_list: 44
+    - min_value: -0.070314094
+      between_value: -0.070314065
+      max_value: 0.00001072362
+      index_triangle: 171
+      min_index_t: 172
+      max_index_t: 171
+      between_index_t: 173
+      min_index_v: 68
+      max_index_v: 69
+      between_index_v: 67
+      index_other_list: 49
+    - min_value: -0.070314094
+      between_value: 0.000010694049
+      max_value: 0.00001072362
+      index_triangle: 174
+      min_index_t: 174
+      max_index_t: 175
+      between_index_t: 176
+      min_index_v: 68
+      max_index_v: 69
+      between_index_v: 70
+      index_other_list: 50
+    - min_value: -0.07031408
+      between_value: -0.070314065
+      max_value: -0.008963844
+      index_triangle: 312
+      min_index_t: 312
+      max_index_t: 313
+      between_index_t: 314
+      min_index_v: 115
+      max_index_v: 116
+      between_index_v: 117
+      index_other_list: 16
+    - min_value: -0.07031408
+      between_value: -0.008963845
+      max_value: -0.008963844
+      index_triangle: 315
+      min_index_t: 316
+      max_index_t: 315
+      between_index_t: 317
+      min_index_v: 115
+      max_index_v: 116
+      between_index_v: 118
+      index_other_list: 17
+    - min_value: -0.07031408
+      between_value: 0.00001067055
+      max_value: 0.000010707005
+      index_triangle: 213
+      min_index_t: 213
+      max_index_t: 215
+      between_index_t: 214
+      min_index_v: 80
+      max_index_v: 84
+      between_index_v: 83
+      index_other_list: 47
+    - min_value: -0.07031408
+      between_value: -0.008963845
+      max_value: 0.000010707005
+      index_triangle: 342
+      min_index_t: 344
+      max_index_t: 342
+      between_index_t: 343
+      min_index_v: 143
+      max_index_v: 141
+      between_index_v: 142
+      index_other_list: 48
+    - min_value: -0.070314065
+      between_value: 0.00001072362
+      max_value: 0.000010728987
+      index_triangle: 177
+      min_index_t: 177
+      max_index_t: 178
+      between_index_t: 179
+      min_index_v: 67
+      max_index_v: 71
+      between_index_v: 69
+      index_other_list: 51
+    - min_value: -0.070314065
+      between_value: -0.070314065
+      max_value: 0.000010728987
+      index_triangle: 180
+      min_index_t: 182
+      max_index_t: 180
+      between_index_t: 181
+      min_index_v: 72
+      max_index_v: 71
+      between_index_v: 67
+      index_other_list: 52
+    - min_value: -0.070314065
+      between_value: 0.000010728987
+      max_value: 0.000010752138
+      index_triangle: 318
+      min_index_t: 318
+      max_index_t: 319
+      between_index_t: 320
+      min_index_v: 119
+      max_index_v: 120
+      between_index_v: 121
+      index_other_list: 55
+    - min_value: -0.070314065
+      between_value: -0.008963844
+      max_value: 0.000010752138
+      index_triangle: 321
+      min_index_t: 322
+      max_index_t: 321
+      between_index_t: 323
+      min_index_v: 123
+      max_index_v: 122
+      between_index_v: 124
+      index_other_list: 56
+    - min_value: -0.008963845
+      between_value: -0.008963844
+      max_value: 0.000010746431
+      index_triangle: 300
+      min_index_t: 302
+      max_index_t: 300
+      between_index_t: 301
+      min_index_v: 111
+      max_index_v: 109
+      between_index_v: 110
+      index_other_list: 53
+    - min_value: -0.008963845
+      between_value: 0.000010707005
+      max_value: 0.000010746431
+      index_triangle: 345
+      min_index_t: 345
+      max_index_t: 347
+      between_index_t: 346
+      min_index_v: 144
+      max_index_v: 146
+      between_index_v: 145
+      index_other_list: 54
+    - min_value: -0.008963844
+      between_value: 0.000010746431
+      max_value: 0.000010752138
+      index_triangle: 303
+      min_index_t: 303
+      max_index_t: 305
+      between_index_t: 304
+      min_index_v: 110
+      max_index_v: 112
+      between_index_v: 109
+      index_other_list: 57
+    - min_value: -0.00000021594018
+      between_value: -0.00000021500341
+      max_value: 0.08577287
+      index_triangle: 141
+      min_index_t: 141
+      max_index_t: 143
+      between_index_t: 142
+      min_index_v: 44
+      max_index_v: 45
+      between_index_v: 43
+      index_other_list: 80
+    - min_value: -0.00000021594018
+      between_value: -0.0000001402294
+      max_value: 0.08577287
+      index_triangle: 159
+      min_index_t: 161
+      max_index_t: 159
+      between_index_t: 160
+      min_index_v: 61
+      max_index_v: 59
+      between_index_v: 60
+      index_other_list: 81
+    - min_value: -0.00000021500341
+      between_value: -0.00000009378928
+      max_value: 0.08577298
+      index_triangle: 162
+      min_index_t: 163
+      max_index_t: 162
+      between_index_t: 164
+      min_index_v: 63
+      max_index_v: 62
+      between_index_v: 64
+      index_other_list: 82
+    - min_value: -0.00000021500341
+      between_value: 0.08577287
+      max_value: 0.08577298
+      index_triangle: 165
+      min_index_t: 165
+      max_index_t: 166
+      between_index_t: 167
+      min_index_v: 63
+      max_index_v: 62
+      between_index_v: 65
+      index_other_list: 83
+    - min_value: -0.0000001441785
+      between_value: -0.0000001402294
+      max_value: 0.085773006
+      index_triangle: 129
+      min_index_t: 131
+      max_index_t: 130
+      between_index_t: 129
+      min_index_v: 34
+      max_index_v: 35
+      between_index_v: 38
+      index_other_list: 86
+    - min_value: -0.0000001441785
+      between_value: -0.000000063689114
+      max_value: 0.12130146
+      index_triangle: 114
+      min_index_t: 114
+      max_index_t: 115
+      between_index_t: 116
+      min_index_v: 34
+      max_index_v: 3
+      between_index_v: 5
+      index_other_list: 104
+    - min_value: -0.0000001441785
+      between_value: 0.085773006
+      max_value: 0.12130146
+      index_triangle: 117
+      min_index_t: 118
+      max_index_t: 117
+      between_index_t: 119
+      min_index_v: 34
+      max_index_v: 3
+      between_index_v: 35
+      index_other_list: 105
+    - min_value: -0.0000001402294
+      between_value: 0.08577287
+      max_value: 0.08577298
+      index_triangle: 156
+      min_index_t: 156
+      max_index_t: 158
+      between_index_t: 157
+      min_index_v: 56
+      max_index_v: 58
+      between_index_v: 57
+      index_other_list: 84
+    - min_value: -0.0000001402294
+      between_value: 0.08577298
+      max_value: 0.121301375
+      index_triangle: 99
+      min_index_t: 99
+      max_index_t: 101
+      between_index_t: 100
+      min_index_v: 32
+      max_index_v: 30
+      between_index_v: 29
+      index_other_list: 98
+    - min_value: -0.0000001402294
+      between_value: 0.085773006
+      max_value: 0.121301375
+      index_triangle: 126
+      min_index_t: 126
+      max_index_t: 127
+      between_index_t: 128
+      min_index_v: 37
+      max_index_v: 36
+      between_index_v: 35
+      index_other_list: 99
+    - min_value: -0.00000009378928
+      between_value: -0.000000032759502
+      max_value: 0.08577298
+      index_triangle: 87
+      min_index_t: 89
+      max_index_t: 88
+      between_index_t: 87
+      min_index_v: 28
+      max_index_v: 29
+      between_index_v: 17
+      index_other_list: 85
+    - min_value: -0.000000063689114
+      between_value: 0.000000025554652
+      max_value: 0.08577318
+      index_triangle: 12
+      min_index_t: 12
+      max_index_t: 13
+      between_index_t: 14
+      min_index_v: 5
+      max_index_v: 1
+      between_index_v: 6
+      index_other_list: 88
+    - min_value: -0.000000063689114
+      between_value: 0.08577318
+      max_value: 0.12130146
+      index_triangle: 9
+      min_index_t: 10
+      max_index_t: 11
+      between_index_t: 9
+      min_index_v: 5
+      max_index_v: 3
+      between_index_v: 1
+      index_other_list: 106
+    - min_value: -0.000000032759502
+      between_value: 0.00000006886674
+      max_value: 0.12130143
+      index_triangle: 54
+      min_index_t: 56
+      max_index_t: 55
+      between_index_t: 54
+      min_index_v: 17
+      max_index_v: 20
+      between_index_v: 18
+      index_other_list: 100
+    - min_value: -0.000000032759502
+      between_value: 0.08577298
+      max_value: 0.12130143
+      index_triangle: 84
+      min_index_t: 85
+      max_index_t: 86
+      between_index_t: 84
+      min_index_v: 17
+      max_index_v: 20
+      between_index_v: 29
+      index_other_list: 101
+    - min_value: 0.000000025554652
+      between_value: 0.00000011053684
+      max_value: 0.08577318
+      index_triangle: 15
+      min_index_t: 16
+      max_index_t: 17
+      between_index_t: 15
+      min_index_v: 6
+      max_index_v: 1
+      between_index_v: 7
+      index_other_list: 89
+    - min_value: 0.00000006886674
+      between_value: 0.00000011053684
+      max_value: 0.08577313
+      index_triangle: 60
+      min_index_t: 62
+      max_index_t: 61
+      between_index_t: 60
+      min_index_v: 18
+      max_index_v: 21
+      between_index_v: 22
+      index_other_list: 87
+    - min_value: 0.00000006886674
+      between_value: 0.08577313
+      max_value: 0.12130143
+      index_triangle: 57
+      min_index_t: 58
+      max_index_t: 57
+      between_index_t: 59
+      min_index_v: 18
+      max_index_v: 20
+      between_index_v: 21
+      index_other_list: 102
+    - min_value: 0.00000011053684
+      between_value: 0.08577318
+      max_value: 0.12130155
+      index_triangle: 0
+      min_index_t: 0
+      max_index_t: 2
+      between_index_t: 1
+      min_index_v: 0
+      max_index_v: 2
+      between_index_v: 1
+      index_other_list: 107
+    - min_value: 0.00000011053684
+      between_value: 0.08577313
+      max_value: 0.12130155
+      index_triangle: 69
+      min_index_t: 69
+      max_index_t: 70
+      between_index_t: 71
+      min_index_v: 25
+      max_index_v: 24
+      between_index_v: 21
+      index_other_list: 108
+    - min_value: 0.00001063561
+      between_value: 0.000010640977
+      max_value: 0.07033542
+      index_triangle: 264
+      min_index_t: 266
+      max_index_t: 264
+      between_index_t: 265
+      min_index_v: 88
+      max_index_v: 100
+      between_index_v: 85
+      index_other_list: 61
+    - min_value: 0.00001063561
+      between_value: 0.0000106575935
+      max_value: 0.07033544
+      index_triangle: 270
+      min_index_t: 271
+      max_index_t: 270
+      between_index_t: 272
+      min_index_v: 88
+      max_index_v: 101
+      between_index_v: 91
+      index_other_list: 64
+    - min_value: 0.00001063561
+      between_value: 0.07033542
+      max_value: 0.07033544
+      index_triangle: 273
+      min_index_t: 273
+      max_index_t: 274
+      between_index_t: 275
+      min_index_v: 88
+      max_index_v: 101
+      between_index_v: 100
+      index_other_list: 65
+    - min_value: 0.000010640977
+      between_value: 0.00001067055
+      max_value: 0.070335425
+      index_triangle: 258
+      min_index_t: 260
+      max_index_t: 258
+      between_index_t: 259
+      min_index_v: 85
+      max_index_v: 99
+      between_index_v: 83
+      index_other_list: 62
+    - min_value: 0.000010640977
+      between_value: 0.07033542
+      max_value: 0.070335425
+      index_triangle: 267
+      min_index_t: 267
+      max_index_t: 269
+      between_index_t: 268
+      min_index_v: 85
+      max_index_v: 99
+      between_index_v: 100
+      index_other_list: 63
+    - min_value: 0.0000106575935
+      between_value: 0.000010694049
+      max_value: 0.07033546
+      index_triangle: 276
+      min_index_t: 277
+      max_index_t: 276
+      between_index_t: 278
+      min_index_v: 91
+      max_index_v: 102
+      between_index_v: 94
+      index_other_list: 68
+    - min_value: 0.0000106575935
+      between_value: 0.07033544
+      max_value: 0.07033546
+      index_triangle: 279
+      min_index_t: 279
+      max_index_t: 280
+      between_index_t: 281
+      min_index_v: 91
+      max_index_v: 102
+      between_index_v: 101
+      index_other_list: 69
+    - min_value: 0.00001067055
+      between_value: 0.000010707005
+      max_value: 0.07033545
+      index_triangle: 252
+      min_index_t: 254
+      max_index_t: 252
+      between_index_t: 253
+      min_index_v: 83
+      max_index_v: 97
+      between_index_v: 84
+      index_other_list: 66
+    - min_value: 0.00001067055
+      between_value: 0.070335425
+      max_value: 0.07033545
+      index_triangle: 261
+      min_index_t: 261
+      max_index_t: 263
+      between_index_t: 262
+      min_index_v: 83
+      max_index_v: 97
+      between_index_v: 99
+      index_other_list: 67
+    - min_value: 0.000010694049
+      between_value: 0.00001072362
+      max_value: 0.070335485
+      index_triangle: 186
+      min_index_t: 187
+      max_index_t: 186
+      between_index_t: 188
+      min_index_v: 70
+      max_index_v: 74
+      between_index_v: 69
+      index_other_list: 73
+    - min_value: 0.000010694049
+      between_value: 0.07033546
+      max_value: 0.070335485
+      index_triangle: 189
+      min_index_t: 189
+      max_index_t: 190
+      between_index_t: 191
+      min_index_v: 70
+      max_index_v: 74
+      between_index_v: 75
+      index_other_list: 74
+    - min_value: 0.000010707005
+      between_value: 0.07033545
+      max_value: 0.07033547
+      index_triangle: 255
+      min_index_t: 255
+      max_index_t: 257
+      between_index_t: 256
+      min_index_v: 84
+      max_index_v: 98
+      between_index_v: 97
+      index_other_list: 70
+    - min_value: 0.000010707005
+      between_value: 0.000010746431
+      max_value: 0.07033547
+      index_triangle: 336
+      min_index_t: 338
+      max_index_t: 336
+      between_index_t: 337
+      min_index_v: 137
+      max_index_v: 135
+      between_index_v: 136
+      index_other_list: 71
+    - min_value: 0.00001072362
+      between_value: 0.000010728987
+      max_value: 0.070335485
+      index_triangle: 192
+      min_index_t: 193
+      max_index_t: 192
+      between_index_t: 194
+      min_index_v: 69
+      max_index_v: 76
+      between_index_v: 71
+      index_other_list: 75
+    - min_value: 0.00001072362
+      between_value: 0.070335485
+      max_value: 0.070335485
+      index_triangle: 195
+      min_index_t: 195
+      max_index_t: 196
+      between_index_t: 197
+      min_index_v: 69
+      max_index_v: 76
+      between_index_v: 74
+      index_other_list: 76
+    - min_value: 0.000010728987
+      between_value: 0.000010752138
+      max_value: 0.008760789
+      index_triangle: 327
+      min_index_t: 328
+      max_index_t: 327
+      between_index_t: 329
+      min_index_v: 129
+      max_index_v: 128
+      between_index_v: 130
+      index_other_list: 59
+    - min_value: 0.000010728987
+      between_value: 0.008760789
+      max_value: 0.070335485
+      index_triangle: 324
+      min_index_t: 324
+      max_index_t: 326
+      between_index_t: 325
+      min_index_v: 125
+      max_index_v: 127
+      between_index_v: 126
+      index_other_list: 77
+    - min_value: 0.000010746431
+      between_value: 0.000010752138
+      max_value: 0.0087607885
+      index_triangle: 306
+      min_index_t: 308
+      max_index_t: 306
+      between_index_t: 307
+      min_index_v: 109
+      max_index_v: 113
+      between_index_v: 112
+      index_other_list: 58
+    - min_value: 0.000010746431
+      between_value: 0.0087607885
+      max_value: 0.07033547
+      index_triangle: 339
+      min_index_t: 339
+      max_index_t: 340
+      between_index_t: 341
+      min_index_v: 138
+      max_index_v: 139
+      between_index_v: 140
+      index_other_list: 72
+    - min_value: 0.000010752138
+      between_value: 0.0087607885
+      max_value: 0.008760789
+      index_triangle: 309
+      min_index_t: 309
+      max_index_t: 311
+      between_index_t: 310
+      min_index_v: 112
+      max_index_v: 114
+      between_index_v: 113
+      index_other_list: 60
+    - min_value: 0.0087607885
+      between_value: 0.07033547
+      max_value: 0.070335485
+      index_triangle: 330
+      min_index_t: 331
+      max_index_t: 330
+      between_index_t: 332
+      min_index_v: 132
+      max_index_v: 131
+      between_index_v: 133
+      index_other_list: 78
+    - min_value: 0.0087607885
+      between_value: 0.008760789
+      max_value: 0.070335485
+      index_triangle: 333
+      min_index_t: 333
+      max_index_t: 334
+      between_index_t: 335
+      min_index_v: 132
+      max_index_v: 131
+      between_index_v: 134
+      index_other_list: 79
+    - min_value: 0.07033542
+      between_value: 0.070335425
+      max_value: 0.09946493
+      index_triangle: 288
+      min_index_t: 290
+      max_index_t: 288
+      between_index_t: 289
+      min_index_v: 100
+      max_index_v: 105
+      between_index_v: 99
+      index_other_list: 90
+    - min_value: 0.07033542
+      between_value: 0.07033544
+      max_value: 0.09946493
+      index_triangle: 291
+      min_index_t: 292
+      max_index_t: 291
+      between_index_t: 293
+      min_index_v: 100
+      max_index_v: 106
+      between_index_v: 101
+      index_other_list: 91
+    - min_value: 0.070335425
+      between_value: 0.07033545
+      max_value: 0.09946493
+      index_triangle: 285
+      min_index_t: 287
+      max_index_t: 285
+      between_index_t: 286
+      min_index_v: 99
+      max_index_v: 104
+      between_index_v: 97
+      index_other_list: 92
+    - min_value: 0.07033544
+      between_value: 0.07033546
+      max_value: 0.09946493
+      index_triangle: 294
+      min_index_t: 295
+      max_index_t: 294
+      between_index_t: 296
+      min_index_v: 101
+      max_index_v: 107
+      between_index_v: 102
+      index_other_list: 93
+    - min_value: 0.07033545
+      between_value: 0.07033547
+      max_value: 0.09946493
+      index_triangle: 282
+      min_index_t: 284
+      max_index_t: 282
+      between_index_t: 283
+      min_index_v: 97
+      max_index_v: 103
+      between_index_v: 98
+      index_other_list: 94
+    - min_value: 0.07033546
+      between_value: 0.070335485
+      max_value: 0.09946493
+      index_triangle: 198
+      min_index_t: 199
+      max_index_t: 198
+      between_index_t: 200
+      min_index_v: 75
+      max_index_v: 77
+      between_index_v: 74
+      index_other_list: 95
+    - min_value: 0.07033547
+      between_value: 0.070335485
+      max_value: 0.09946493
+      index_triangle: 297
+      min_index_t: 299
+      max_index_t: 297
+      between_index_t: 298
+      min_index_v: 98
+      max_index_v: 108
+      between_index_v: 76
+      index_other_list: 96
+    - min_value: 0.070335485
+      between_value: 0.070335485
+      max_value: 0.09946493
+      index_triangle: 201
+      min_index_t: 203
+      max_index_t: 201
+      between_index_t: 202
+      min_index_v: 76
+      max_index_v: 78
+      between_index_v: 74
+      index_other_list: 97
+    - min_value: 0.08577298
+      between_value: 0.121301375
+      max_value: 0.12130143
+      index_triangle: 93
+      min_index_t: 95
+      max_index_t: 93
+      between_index_t: 94
+      min_index_v: 29
+      max_index_v: 20
+      between_index_v: 30
+      index_other_list: 103
+    - min_value: 0.085773006
+      between_value: 0.12130146
+      max_value: 0.17154618
+      index_triangle: 120
+      min_index_t: 120
+      max_index_t: 121
+      between_index_t: 122
+      min_index_v: 35
+      max_index_v: 4
+      between_index_v: 3
+      index_other_list: 110
+    - min_value: 0.085773006
+      between_value: 0.121301375
+      max_value: 0.17154618
+      index_triangle: 123
+      min_index_t: 124
+      max_index_t: 123
+      between_index_t: 125
+      min_index_v: 35
+      max_index_v: 4
+      between_index_v: 36
+      index_other_list: 111
+    - min_value: 0.08577313
+      between_value: 0.12130143
+      max_value: 0.17154618
+      index_triangle: 63
+      min_index_t: 63
+      max_index_t: 64
+      between_index_t: 65
+      min_index_v: 21
+      max_index_v: 23
+      between_index_v: 20
+      index_other_list: 112
+    - min_value: 0.08577313
+      between_value: 0.12130155
+      max_value: 0.17154618
+      index_triangle: 66
+      min_index_t: 67
+      max_index_t: 66
+      between_index_t: 68
+      min_index_v: 21
+      max_index_v: 23
+      between_index_v: 24
+      index_other_list: 113
+    - min_value: 0.08577318
+      between_value: 0.12130146
+      max_value: 0.12130155
+      index_triangle: 3
+      min_index_t: 5
+      max_index_t: 4
+      between_index_t: 3
+      min_index_v: 1
+      max_index_v: 2
+      between_index_v: 3
+      index_other_list: 109
+    - min_value: 0.121301375
+      between_value: 0.12130143
+      max_value: 0.17154618
+      index_triangle: 90
+      min_index_t: 90
+      max_index_t: 92
+      between_index_t: 91
+      min_index_v: 30
+      max_index_v: 23
+      between_index_v: 20
+      index_other_list: 114
+    - min_value: 0.12130146
+      between_value: 0.12130155
+      max_value: 0.17154618
+      index_triangle: 6
+      min_index_t: 7
+      max_index_t: 8
+      between_index_t: 6
+      min_index_v: 3
+      max_index_v: 4
+      between_index_v: 2
+      index_other_list: 115
+    l_first_triangle_hide: 0
+    l_sortBigger: 000000000100000006000000020000000300000004000000050000000c00000012000000130000001400000015000000160000001700000018000000190000002f000000300000001a0000001b00000007000000080000001e000000200000000d0000001c0000001d000000090000001f0000000e0000000f0000000a0000000b000000220000001000000011000000210000002300000024000000250000002600000027000000280000002b0000002c000000290000002a00000031000000320000002d0000002e000000330000003400000037000000380000003500000036000000390000005f0000005d000000610000004e00000051000000520000004f0000005000000055000000560000005300000054000000590000005a0000006000000057000000580000005b0000005c0000005e00000062000000630000003a0000003b0000003c0000003d00000041000000440000003e0000004a00000045000000490000006400000065000000660000006700000068000000690000006a0000006b000000420000004300000047000000480000004b0000006c0000003f00000040000000460000004c0000004d000000710000006d0000006e0000006f000000700000007200000073000000
+    l_sortBigger_count: -1
+    l_intersection: 
+  - l_triangles_show: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    l_triangleInfo:
+    - min_value: -0.57145125
+      between_value: -0.47629645
+      max_value: -0.47629637
+      index_triangle: 108
+      min_index_t: 110
+      max_index_t: 108
+      between_index_t: 109
+      min_index_v: 24
+      max_index_v: 36
+      between_index_v: 37
+      index_other_list: 0
+    - min_value: -0.57145125
+      between_value: -0.47629645
+      max_value: -0.4762963
+      index_triangle: 93
+      min_index_t: 94
+      max_index_t: 93
+      between_index_t: 95
+      min_index_v: 24
+      max_index_v: 21
+      between_index_v: 31
+      index_other_list: 1
+    - min_value: -0.57145125
+      between_value: -0.47629645
+      max_value: -0.40901184
+      index_triangle: 132
+      min_index_t: 132
+      max_index_t: 134
+      between_index_t: 133
+      min_index_v: 24
+      max_index_v: 44
+      between_index_v: 37
+      index_other_list: 2
+    - min_value: -0.57145125
+      between_value: -0.47629645
+      max_value: -0.40901184
+      index_triangle: 135
+      min_index_t: 135
+      max_index_t: 136
+      between_index_t: 137
+      min_index_v: 24
+      max_index_v: 44
+      between_index_v: 45
+      index_other_list: 3
+    - min_value: -0.57145125
+      between_value: -0.4762963
+      max_value: -0.40901163
+      index_triangle: 63
+      min_index_t: 64
+      max_index_t: 63
+      between_index_t: 65
+      min_index_v: 24
+      max_index_v: 22
+      between_index_v: 21
+      index_other_list: 6
+    - min_value: -0.57145125
+      between_value: -0.47629637
+      max_value: -0.40901163
+      index_triangle: 66
+      min_index_t: 68
+      max_index_t: 66
+      between_index_t: 67
+      min_index_v: 24
+      max_index_v: 22
+      between_index_v: 25
+      index_other_list: 7
+    - min_value: -0.47629645
+      between_value: -0.47629637
+      max_value: -0.40901175
+      index_triangle: 111
+      min_index_t: 113
+      max_index_t: 112
+      between_index_t: 111
+      min_index_v: 37
+      max_index_v: 38
+      between_index_v: 36
+      index_other_list: 4
+    - min_value: -0.47629645
+      between_value: -0.4762963
+      max_value: -0.4090117
+      index_triangle: 90
+      min_index_t: 91
+      max_index_t: 92
+      between_index_t: 90
+      min_index_v: 31
+      max_index_v: 30
+      between_index_v: 21
+      index_other_list: 5
+    - min_value: -0.47629645
+      between_value: -0.4090117
+      max_value: -0.24657218
+      index_triangle: 105
+      min_index_t: 107
+      max_index_t: 105
+      between_index_t: 106
+      min_index_v: 31
+      max_index_v: 35
+      between_index_v: 30
+      index_other_list: 8
+    - min_value: -0.47629645
+      between_value: -0.40901184
+      max_value: -0.24657218
+      index_triangle: 138
+      min_index_t: 139
+      max_index_t: 138
+      between_index_t: 140
+      min_index_v: 45
+      max_index_v: 46
+      between_index_v: 44
+      index_other_list: 9
+    - min_value: -0.47629645
+      between_value: -0.40901184
+      max_value: -0.24657215
+      index_triangle: 129
+      min_index_t: 129
+      max_index_t: 130
+      between_index_t: 131
+      min_index_v: 37
+      max_index_v: 43
+      between_index_v: 44
+      index_other_list: 11
+    - min_value: -0.47629645
+      between_value: -0.40901175
+      max_value: -0.2465721
+      index_triangle: 117
+      min_index_t: 119
+      max_index_t: 118
+      between_index_t: 117
+      min_index_v: 37
+      max_index_v: 40
+      between_index_v: 38
+      index_other_list: 17
+    - min_value: -0.47629645
+      between_value: -0.24657215
+      max_value: -0.2465721
+      index_triangle: 126
+      min_index_t: 126
+      max_index_t: 127
+      between_index_t: 128
+      min_index_v: 37
+      max_index_v: 40
+      between_index_v: 43
+      index_other_list: 18
+    - min_value: -0.47629637
+      between_value: -0.40901163
+      max_value: -0.2465721
+      index_triangle: 69
+      min_index_t: 70
+      max_index_t: 69
+      between_index_t: 71
+      min_index_v: 25
+      max_index_v: 26
+      between_index_v: 22
+      index_other_list: 19
+    - min_value: -0.47629637
+      between_value: -0.40901175
+      max_value: -0.2465721
+      index_triangle: 114
+      min_index_t: 116
+      max_index_t: 114
+      between_index_t: 115
+      min_index_v: 36
+      max_index_v: 39
+      between_index_v: 38
+      index_other_list: 20
+    - min_value: -0.4762963
+      between_value: -0.24657215
+      max_value: -0.24657215
+      index_triangle: 54
+      min_index_t: 55
+      max_index_t: 54
+      between_index_t: 56
+      min_index_v: 21
+      max_index_v: 19
+      between_index_v: 18
+      index_other_list: 12
+    - min_value: -0.4762963
+      between_value: -0.40901163
+      max_value: -0.24657215
+      index_triangle: 57
+      min_index_t: 59
+      max_index_t: 57
+      between_index_t: 58
+      min_index_v: 21
+      max_index_v: 19
+      between_index_v: 22
+      index_other_list: 13
+    - min_value: -0.4762963
+      between_value: -0.4090117
+      max_value: -0.24657215
+      index_triangle: 87
+      min_index_t: 88
+      max_index_t: 87
+      between_index_t: 89
+      min_index_v: 21
+      max_index_v: 18
+      between_index_v: 30
+      index_other_list: 14
+    - min_value: -0.40901184
+      between_value: -0.24657218
+      max_value: -0.24657215
+      index_triangle: 141
+      min_index_t: 142
+      max_index_t: 143
+      between_index_t: 141
+      min_index_v: 44
+      max_index_v: 43
+      between_index_v: 47
+      index_other_list: 15
+    - min_value: -0.40901175
+      between_value: -0.2465721
+      max_value: -0.2465721
+      index_triangle: 120
+      min_index_t: 120
+      max_index_t: 121
+      between_index_t: 122
+      min_index_v: 38
+      max_index_v: 41
+      between_index_v: 40
+      index_other_list: 21
+    - min_value: -0.40901175
+      between_value: -0.2465721
+      max_value: -0.2465721
+      index_triangle: 123
+      min_index_t: 125
+      max_index_t: 123
+      between_index_t: 124
+      min_index_v: 38
+      max_index_v: 42
+      between_index_v: 41
+      index_other_list: 22
+    - min_value: -0.4090117
+      between_value: -0.24657223
+      max_value: -0.24657218
+      index_triangle: 102
+      min_index_t: 104
+      max_index_t: 102
+      between_index_t: 103
+      min_index_v: 30
+      max_index_v: 34
+      between_index_v: 29
+      index_other_list: 10
+    - min_value: -0.4090117
+      between_value: -0.24657223
+      max_value: -0.24657215
+      index_triangle: 84
+      min_index_t: 85
+      max_index_t: 84
+      between_index_t: 86
+      min_index_v: 30
+      max_index_v: 18
+      between_index_v: 29
+      index_other_list: 16
+    - min_value: -0.40901163
+      between_value: -0.24657215
+      max_value: -0.2465721
+      index_triangle: 60
+      min_index_t: 61
+      max_index_t: 60
+      between_index_t: 62
+      min_index_v: 22
+      max_index_v: 23
+      between_index_v: 19
+      index_other_list: 23
+    - min_value: -0.24657223
+      between_value: -0.24657218
+      max_value: -0.08413266
+      index_triangle: 99
+      min_index_t: 101
+      max_index_t: 100
+      between_index_t: 99
+      min_index_v: 29
+      max_index_v: 27
+      between_index_v: 33
+      index_other_list: 24
+    - min_value: -0.24657223
+      between_value: -0.08413266
+      max_value: -0.0449744
+      index_triangle: 78
+      min_index_t: 79
+      max_index_t: 78
+      between_index_t: 80
+      min_index_v: 29
+      max_index_v: 16
+      between_index_v: 27
+      index_other_list: 30
+    - min_value: -0.24657223
+      between_value: -0.24657215
+      max_value: -0.0449744
+      index_triangle: 81
+      min_index_t: 83
+      max_index_t: 81
+      between_index_t: 82
+      min_index_v: 29
+      max_index_v: 16
+      between_index_v: 18
+      index_other_list: 31
+    - min_value: -0.24657218
+      between_value: -0.24657215
+      max_value: -0.08413262
+      index_triangle: 30
+      min_index_t: 30
+      max_index_t: 32
+      between_index_t: 31
+      min_index_v: 11
+      max_index_v: 8
+      between_index_v: 9
+      index_other_list: 27
+    - min_value: -0.24657218
+      between_value: -0.08413262
+      max_value: -0.044974394
+      index_triangle: 33
+      min_index_t: 33
+      max_index_t: 35
+      between_index_t: 34
+      min_index_v: 12
+      max_index_v: 10
+      between_index_v: 8
+      index_other_list: 33
+    - min_value: -0.24657218
+      between_value: -0.08413266
+      max_value: -0.044974394
+      index_triangle: 96
+      min_index_t: 96
+      max_index_t: 97
+      between_index_t: 98
+      min_index_v: 32
+      max_index_v: 28
+      between_index_v: 27
+      index_other_list: 34
+    - min_value: -0.24657215
+      between_value: -0.24657215
+      max_value: -0.08413264
+      index_triangle: 48
+      min_index_t: 50
+      max_index_t: 48
+      between_index_t: 49
+      min_index_v: 18
+      max_index_v: 14
+      between_index_v: 19
+      index_other_list: 25
+    - min_value: -0.24657215
+      between_value: -0.2465721
+      max_value: -0.08413264
+      index_triangle: 51
+      min_index_t: 52
+      max_index_t: 53
+      between_index_t: 51
+      min_index_v: 19
+      max_index_v: 14
+      between_index_v: 20
+      index_other_list: 26
+    - min_value: -0.24657215
+      between_value: -0.2465721
+      max_value: -0.08413262
+      index_triangle: 21
+      min_index_t: 23
+      max_index_t: 22
+      between_index_t: 21
+      min_index_v: 9
+      max_index_v: 8
+      between_index_v: 4
+      index_other_list: 28
+    - min_value: -0.24657215
+      between_value: -0.08413264
+      max_value: -0.0449744
+      index_triangle: 45
+      min_index_t: 46
+      max_index_t: 47
+      between_index_t: 45
+      min_index_v: 18
+      max_index_v: 16
+      between_index_v: 14
+      index_other_list: 32
+    - min_value: -0.2465721
+      between_value: -0.2465721
+      max_value: -0.084132604
+      index_triangle: 0
+      min_index_t: 2
+      max_index_t: 1
+      between_index_t: 0
+      min_index_v: 2
+      max_index_v: 1
+      between_index_v: 0
+      index_other_list: 29
+    - min_value: -0.2465721
+      between_value: -0.084132604
+      max_value: -0.044974353
+      index_triangle: 3
+      min_index_t: 3
+      max_index_t: 5
+      between_index_t: 4
+      min_index_v: 2
+      max_index_v: 3
+      between_index_v: 1
+      index_other_list: 35
+    - min_value: -0.2465721
+      between_value: -0.2465721
+      max_value: -0.044974353
+      index_triangle: 6
+      min_index_t: 8
+      max_index_t: 7
+      between_index_t: 6
+      min_index_v: 4
+      max_index_v: 3
+      between_index_v: 2
+      index_other_list: 36
+    - min_value: -0.2465721
+      between_value: -0.084132604
+      max_value: -0.044974353
+      index_triangle: 15
+      min_index_t: 15
+      max_index_t: 16
+      between_index_t: 17
+      min_index_v: 7
+      max_index_v: 6
+      between_index_v: 1
+      index_other_list: 37
+    - min_value: -0.2465721
+      between_value: -0.08413262
+      max_value: -0.044974353
+      index_triangle: 18
+      min_index_t: 18
+      max_index_t: 19
+      between_index_t: 20
+      min_index_v: 4
+      max_index_v: 3
+      between_index_v: 8
+      index_other_list: 38
+    - min_value: -0.2465721
+      between_value: -0.08413264
+      max_value: -0.044974353
+      index_triangle: 36
+      min_index_t: 36
+      max_index_t: 38
+      between_index_t: 37
+      min_index_v: 13
+      max_index_v: 15
+      between_index_v: 14
+      index_other_list: 39
+    - min_value: -0.08413266
+      between_value: -0.0449744
+      max_value: 0.0009901715
+      index_triangle: 72
+      min_index_t: 74
+      max_index_t: 72
+      between_index_t: 73
+      min_index_v: 27
+      max_index_v: 17
+      between_index_v: 16
+      index_other_list: 42
+    - min_value: -0.08413266
+      between_value: -0.044974394
+      max_value: 0.0009901715
+      index_triangle: 75
+      min_index_t: 76
+      max_index_t: 75
+      between_index_t: 77
+      min_index_v: 27
+      max_index_v: 17
+      between_index_v: 28
+      index_other_list: 43
+    - min_value: -0.08413264
+      between_value: -0.0449744
+      max_value: -0.044974353
+      index_triangle: 39
+      min_index_t: 40
+      max_index_t: 39
+      between_index_t: 41
+      min_index_v: 14
+      max_index_v: 15
+      between_index_v: 16
+      index_other_list: 40
+    - min_value: -0.08413262
+      between_value: -0.044974394
+      max_value: -0.044974353
+      index_triangle: 24
+      min_index_t: 26
+      max_index_t: 24
+      between_index_t: 25
+      min_index_v: 8
+      max_index_v: 3
+      between_index_v: 10
+      index_other_list: 41
+    - min_value: -0.084132604
+      between_value: -0.044974353
+      max_value: 0.0009901715
+      index_triangle: 9
+      min_index_t: 9
+      max_index_t: 10
+      between_index_t: 11
+      min_index_v: 1
+      max_index_v: 5
+      between_index_v: 3
+      index_other_list: 44
+    - min_value: -0.084132604
+      between_value: -0.044974353
+      max_value: 0.0009901715
+      index_triangle: 12
+      min_index_t: 12
+      max_index_t: 14
+      between_index_t: 13
+      min_index_v: 1
+      max_index_v: 5
+      between_index_v: 6
+      index_other_list: 45
+    - min_value: -0.0449744
+      between_value: -0.044974353
+      max_value: 0.0009901715
+      index_triangle: 42
+      min_index_t: 43
+      max_index_t: 44
+      between_index_t: 42
+      min_index_v: 16
+      max_index_v: 17
+      between_index_v: 15
+      index_other_list: 46
+    - min_value: -0.044974394
+      between_value: -0.044974353
+      max_value: 0.0009901715
+      index_triangle: 27
+      min_index_t: 29
+      max_index_t: 28
+      between_index_t: 27
+      min_index_v: 10
+      max_index_v: 5
+      between_index_v: 3
+      index_other_list: 47
+    l_first_triangle_hide: 0
+    l_sortBigger: 00000000010000000200000003000000060000000700000004000000050000000800000009000000150000000a0000000f000000100000001100000012000000160000000b0000000c0000000d0000000e000000130000001400000017000000180000001e0000001f0000001b0000002000000022000000190000001a000000210000001c0000001d00000023000000240000002500000026000000270000002a0000002b00000028000000290000002c0000002d0000002e0000002f000000
+    l_sortBigger_count: -1
+    l_intersection: 
+  - l_triangles_show: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    l_triangleInfo:
+    - min_value: -0.0020280075
+      between_value: 0.043936517
+      max_value: 0.043936558
+      index_triangle: 27
+      min_index_t: 28
+      max_index_t: 29
+      between_index_t: 27
+      min_index_v: 5
+      max_index_v: 10
+      between_index_v: 3
+      index_other_list: 0
+    - min_value: -0.0020280075
+      between_value: 0.043936517
+      max_value: 0.043936566
+      index_triangle: 42
+      min_index_t: 44
+      max_index_t: 43
+      between_index_t: 42
+      min_index_v: 17
+      max_index_v: 16
+      between_index_v: 15
+      index_other_list: 1
+    - min_value: -0.0020280075
+      between_value: 0.043936517
+      max_value: 0.08309477
+      index_triangle: 9
+      min_index_t: 10
+      max_index_t: 9
+      between_index_t: 11
+      min_index_v: 5
+      max_index_v: 1
+      between_index_v: 3
+      index_other_list: 2
+    - min_value: -0.0020280075
+      between_value: 0.043936517
+      max_value: 0.08309477
+      index_triangle: 12
+      min_index_t: 14
+      max_index_t: 12
+      between_index_t: 13
+      min_index_v: 5
+      max_index_v: 1
+      between_index_v: 6
+      index_other_list: 3
+    - min_value: -0.0020280075
+      between_value: 0.043936566
+      max_value: 0.08309482
+      index_triangle: 72
+      min_index_t: 72
+      max_index_t: 74
+      between_index_t: 73
+      min_index_v: 17
+      max_index_v: 27
+      between_index_v: 16
+      index_other_list: 6
+    - min_value: -0.0020280075
+      between_value: 0.043936558
+      max_value: 0.08309482
+      index_triangle: 75
+      min_index_t: 75
+      max_index_t: 76
+      between_index_t: 77
+      min_index_v: 17
+      max_index_v: 27
+      between_index_v: 28
+      index_other_list: 7
+    - min_value: 0.043936517
+      between_value: 0.043936558
+      max_value: 0.08309478
+      index_triangle: 24
+      min_index_t: 24
+      max_index_t: 26
+      between_index_t: 25
+      min_index_v: 3
+      max_index_v: 8
+      between_index_v: 10
+      index_other_list: 4
+    - min_value: 0.043936517
+      between_value: 0.043936566
+      max_value: 0.083094805
+      index_triangle: 39
+      min_index_t: 39
+      max_index_t: 40
+      between_index_t: 41
+      min_index_v: 15
+      max_index_v: 14
+      between_index_v: 16
+      index_other_list: 5
+    - min_value: 0.043936517
+      between_value: 0.08309477
+      max_value: 0.24553429
+      index_triangle: 3
+      min_index_t: 5
+      max_index_t: 3
+      between_index_t: 4
+      min_index_v: 3
+      max_index_v: 2
+      between_index_v: 1
+      index_other_list: 8
+    - min_value: 0.043936517
+      between_value: 0.24553429
+      max_value: 0.24553429
+      index_triangle: 6
+      min_index_t: 7
+      max_index_t: 6
+      between_index_t: 8
+      min_index_v: 3
+      max_index_v: 2
+      between_index_v: 4
+      index_other_list: 9
+    - min_value: 0.043936517
+      between_value: 0.08309477
+      max_value: 0.24553429
+      index_triangle: 15
+      min_index_t: 16
+      max_index_t: 15
+      between_index_t: 17
+      min_index_v: 6
+      max_index_v: 7
+      between_index_v: 1
+      index_other_list: 10
+    - min_value: 0.043936517
+      between_value: 0.08309478
+      max_value: 0.24553429
+      index_triangle: 18
+      min_index_t: 19
+      max_index_t: 18
+      between_index_t: 20
+      min_index_v: 3
+      max_index_v: 4
+      between_index_v: 8
+      index_other_list: 11
+    - min_value: 0.043936517
+      between_value: 0.083094805
+      max_value: 0.24553429
+      index_triangle: 36
+      min_index_t: 38
+      max_index_t: 36
+      between_index_t: 37
+      min_index_v: 15
+      max_index_v: 13
+      between_index_v: 14
+      index_other_list: 12
+    - min_value: 0.043936558
+      between_value: 0.08309478
+      max_value: 0.24553436
+      index_triangle: 33
+      min_index_t: 35
+      max_index_t: 33
+      between_index_t: 34
+      min_index_v: 10
+      max_index_v: 12
+      between_index_v: 8
+      index_other_list: 18
+    - min_value: 0.043936558
+      between_value: 0.08309482
+      max_value: 0.24553436
+      index_triangle: 96
+      min_index_t: 97
+      max_index_t: 96
+      between_index_t: 98
+      min_index_v: 28
+      max_index_v: 32
+      between_index_v: 27
+      index_other_list: 19
+    - min_value: 0.043936566
+      between_value: 0.083094805
+      max_value: 0.24553432
+      index_triangle: 45
+      min_index_t: 47
+      max_index_t: 46
+      between_index_t: 45
+      min_index_v: 16
+      max_index_v: 18
+      between_index_v: 14
+      index_other_list: 14
+    - min_value: 0.043936566
+      between_value: 0.08309482
+      max_value: 0.24553439
+      index_triangle: 78
+      min_index_t: 78
+      max_index_t: 79
+      between_index_t: 80
+      min_index_v: 16
+      max_index_v: 29
+      between_index_v: 27
+      index_other_list: 21
+    - min_value: 0.043936566
+      between_value: 0.24553432
+      max_value: 0.24553439
+      index_triangle: 81
+      min_index_t: 81
+      max_index_t: 83
+      between_index_t: 82
+      min_index_v: 16
+      max_index_v: 29
+      between_index_v: 18
+      index_other_list: 22
+    - min_value: 0.08309477
+      between_value: 0.24553429
+      max_value: 0.24553429
+      index_triangle: 0
+      min_index_t: 1
+      max_index_t: 0
+      between_index_t: 2
+      min_index_v: 1
+      max_index_v: 0
+      between_index_v: 2
+      index_other_list: 13
+    - min_value: 0.08309478
+      between_value: 0.24553429
+      max_value: 0.24553432
+      index_triangle: 21
+      min_index_t: 22
+      max_index_t: 23
+      between_index_t: 21
+      min_index_v: 8
+      max_index_v: 9
+      between_index_v: 4
+      index_other_list: 15
+    - min_value: 0.08309478
+      between_value: 0.24553432
+      max_value: 0.24553436
+      index_triangle: 30
+      min_index_t: 32
+      max_index_t: 30
+      between_index_t: 31
+      min_index_v: 8
+      max_index_v: 11
+      between_index_v: 9
+      index_other_list: 20
+    - min_value: 0.083094805
+      between_value: 0.24553432
+      max_value: 0.24553432
+      index_triangle: 48
+      min_index_t: 48
+      max_index_t: 49
+      between_index_t: 50
+      min_index_v: 14
+      max_index_v: 19
+      between_index_v: 18
+      index_other_list: 16
+    - min_value: 0.083094805
+      between_value: 0.24553429
+      max_value: 0.24553432
+      index_triangle: 51
+      min_index_t: 53
+      max_index_t: 52
+      between_index_t: 51
+      min_index_v: 14
+      max_index_v: 19
+      between_index_v: 20
+      index_other_list: 17
+    - min_value: 0.08309482
+      between_value: 0.24553436
+      max_value: 0.24553439
+      index_triangle: 99
+      min_index_t: 100
+      max_index_t: 101
+      between_index_t: 99
+      min_index_v: 27
+      max_index_v: 29
+      between_index_v: 33
+      index_other_list: 23
+    - min_value: 0.24553429
+      between_value: 0.24553432
+      max_value: 0.40797383
+      index_triangle: 60
+      min_index_t: 60
+      max_index_t: 61
+      between_index_t: 62
+      min_index_v: 23
+      max_index_v: 22
+      between_index_v: 19
+      index_other_list: 24
+    - min_value: 0.24553429
+      between_value: 0.24553429
+      max_value: 0.40797392
+      index_triangle: 120
+      min_index_t: 122
+      max_index_t: 120
+      between_index_t: 121
+      min_index_v: 40
+      max_index_v: 38
+      between_index_v: 41
+      index_other_list: 27
+    - min_value: 0.24553429
+      between_value: 0.24553429
+      max_value: 0.40797392
+      index_triangle: 123
+      min_index_t: 124
+      max_index_t: 125
+      between_index_t: 123
+      min_index_v: 41
+      max_index_v: 38
+      between_index_v: 42
+      index_other_list: 28
+    - min_value: 0.24553429
+      between_value: 0.40797383
+      max_value: 0.4752585
+      index_triangle: 69
+      min_index_t: 69
+      max_index_t: 70
+      between_index_t: 71
+      min_index_v: 26
+      max_index_v: 25
+      between_index_v: 22
+      index_other_list: 33
+    - min_value: 0.24553429
+      between_value: 0.40797392
+      max_value: 0.4752585
+      index_triangle: 114
+      min_index_t: 114
+      max_index_t: 116
+      between_index_t: 115
+      min_index_v: 39
+      max_index_v: 36
+      between_index_v: 38
+      index_other_list: 34
+    - min_value: 0.24553429
+      between_value: 0.40797392
+      max_value: 0.4752586
+      index_triangle: 117
+      min_index_t: 118
+      max_index_t: 119
+      between_index_t: 117
+      min_index_v: 40
+      max_index_v: 37
+      between_index_v: 38
+      index_other_list: 35
+    - min_value: 0.24553429
+      between_value: 0.24553432
+      max_value: 0.4752586
+      index_triangle: 126
+      min_index_t: 127
+      max_index_t: 126
+      between_index_t: 128
+      min_index_v: 40
+      max_index_v: 37
+      between_index_v: 43
+      index_other_list: 36
+    - min_value: 0.24553432
+      between_value: 0.24553439
+      max_value: 0.40797386
+      index_triangle: 84
+      min_index_t: 84
+      max_index_t: 85
+      between_index_t: 86
+      min_index_v: 18
+      max_index_v: 30
+      between_index_v: 29
+      index_other_list: 25
+    - min_value: 0.24553432
+      between_value: 0.24553436
+      max_value: 0.407974
+      index_triangle: 141
+      min_index_t: 143
+      max_index_t: 142
+      between_index_t: 141
+      min_index_v: 43
+      max_index_v: 44
+      between_index_v: 47
+      index_other_list: 29
+    - min_value: 0.24553432
+      between_value: 0.24553432
+      max_value: 0.47525844
+      index_triangle: 54
+      min_index_t: 56
+      max_index_t: 55
+      between_index_t: 54
+      min_index_v: 18
+      max_index_v: 21
+      between_index_v: 19
+      index_other_list: 30
+    - min_value: 0.24553432
+      between_value: 0.40797383
+      max_value: 0.47525844
+      index_triangle: 57
+      min_index_t: 57
+      max_index_t: 59
+      between_index_t: 58
+      min_index_v: 19
+      max_index_v: 21
+      between_index_v: 22
+      index_other_list: 31
+    - min_value: 0.24553432
+      between_value: 0.40797386
+      max_value: 0.47525844
+      index_triangle: 87
+      min_index_t: 87
+      max_index_t: 88
+      between_index_t: 89
+      min_index_v: 18
+      max_index_v: 21
+      between_index_v: 30
+      index_other_list: 32
+    - min_value: 0.24553432
+      between_value: 0.407974
+      max_value: 0.4752586
+      index_triangle: 129
+      min_index_t: 130
+      max_index_t: 129
+      between_index_t: 131
+      min_index_v: 43
+      max_index_v: 37
+      between_index_v: 44
+      index_other_list: 37
+    - min_value: 0.24553436
+      between_value: 0.24553439
+      max_value: 0.40797386
+      index_triangle: 102
+      min_index_t: 102
+      max_index_t: 104
+      between_index_t: 103
+      min_index_v: 34
+      max_index_v: 30
+      between_index_v: 29
+      index_other_list: 26
+    - min_value: 0.24553436
+      between_value: 0.40797386
+      max_value: 0.4752586
+      index_triangle: 105
+      min_index_t: 105
+      max_index_t: 107
+      between_index_t: 106
+      min_index_v: 35
+      max_index_v: 31
+      between_index_v: 30
+      index_other_list: 38
+    - min_value: 0.24553436
+      between_value: 0.407974
+      max_value: 0.4752586
+      index_triangle: 138
+      min_index_t: 138
+      max_index_t: 139
+      between_index_t: 140
+      min_index_v: 46
+      max_index_v: 45
+      between_index_v: 44
+      index_other_list: 39
+    - min_value: 0.40797383
+      between_value: 0.47525844
+      max_value: 0.5704134
+      index_triangle: 63
+      min_index_t: 63
+      max_index_t: 64
+      between_index_t: 65
+      min_index_v: 22
+      max_index_v: 24
+      between_index_v: 21
+      index_other_list: 42
+    - min_value: 0.40797383
+      between_value: 0.4752585
+      max_value: 0.5704134
+      index_triangle: 66
+      min_index_t: 66
+      max_index_t: 68
+      between_index_t: 67
+      min_index_v: 22
+      max_index_v: 24
+      between_index_v: 25
+      index_other_list: 43
+    - min_value: 0.40797386
+      between_value: 0.47525844
+      max_value: 0.4752586
+      index_triangle: 90
+      min_index_t: 92
+      max_index_t: 91
+      between_index_t: 90
+      min_index_v: 30
+      max_index_v: 31
+      between_index_v: 21
+      index_other_list: 40
+    - min_value: 0.40797392
+      between_value: 0.4752585
+      max_value: 0.4752586
+      index_triangle: 111
+      min_index_t: 112
+      max_index_t: 113
+      between_index_t: 111
+      min_index_v: 38
+      max_index_v: 37
+      between_index_v: 36
+      index_other_list: 41
+    - min_value: 0.407974
+      between_value: 0.4752586
+      max_value: 0.5704134
+      index_triangle: 132
+      min_index_t: 134
+      max_index_t: 132
+      between_index_t: 133
+      min_index_v: 44
+      max_index_v: 24
+      between_index_v: 37
+      index_other_list: 44
+    - min_value: 0.407974
+      between_value: 0.4752586
+      max_value: 0.5704134
+      index_triangle: 135
+      min_index_t: 136
+      max_index_t: 135
+      between_index_t: 137
+      min_index_v: 44
+      max_index_v: 24
+      between_index_v: 45
+      index_other_list: 45
+    - min_value: 0.47525844
+      between_value: 0.4752586
+      max_value: 0.5704134
+      index_triangle: 93
+      min_index_t: 93
+      max_index_t: 94
+      between_index_t: 95
+      min_index_v: 21
+      max_index_v: 24
+      between_index_v: 31
+      index_other_list: 46
+    - min_value: 0.4752585
+      between_value: 0.4752586
+      max_value: 0.5704134
+      index_triangle: 108
+      min_index_t: 108
+      max_index_t: 110
+      between_index_t: 109
+      min_index_v: 36
+      max_index_v: 24
+      between_index_v: 37
+      index_other_list: 47
+    l_first_triangle_hide: 0
+    l_sortBigger: 000000000100000002000000030000000600000007000000040000000500000008000000090000000a0000000b0000000c000000120000000f0000001300000015000000160000000d0000000e00000014000000100000001100000017000000180000001f00000025000000190000001a000000200000002100000022000000230000001b0000001c0000001d0000001e0000002400000026000000270000002a0000002b00000028000000290000002c0000002d0000002e0000002f000000
+    l_sortBigger_count: -1
+    l_intersection: 
+  arrayOriginalMesh:
+  - {fileID: 80008583}
+  - {fileID: 1986718313}
+  - {fileID: 1916008126}
+  axis: 0
+  isInit: 1
+  isActiveGui: 1
+--- !u!95 &305868500
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 9500000, guid: b0aedc2611c72ab4bad81f9a4803f1b1,
+    type: 3}
+  m_PrefabInternal: {fileID: 1177980254}
+  m_GameObject: {fileID: 305868498}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: b0aedc2611c72ab4bad81f9a4803f1b1, type: 3}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!4 &305868501
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: b0aedc2611c72ab4bad81f9a4803f1b1, type: 3}
+  m_PrefabInternal: {fileID: 1177980254}
+  m_GameObject: {fileID: 305868498}
+  m_LocalRotation: {x: 0.014796466, y: -0.53461605, z: 0.84488326, w: -0.011792648}
+  m_LocalPosition: {x: -0.14108235, y: 1.0163393, z: -8.91398}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 573161253}
+  - {fileID: 1329735285}
+  - {fileID: 61939887}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &573161251
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100002, guid: b0aedc2611c72ab4bad81f9a4803f1b1, type: 3}
+  m_PrefabInternal: {fileID: 1177980254}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 573161253}
+  - component: {fileID: 573161252}
+  - component: {fileID: 573161254}
+  m_Layer: 0
+  m_Name: body
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!33 &573161252
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300000, guid: b0aedc2611c72ab4bad81f9a4803f1b1,
+    type: 3}
+  m_PrefabInternal: {fileID: 1177980254}
+  m_GameObject: {fileID: 573161251}
+  m_Mesh: {fileID: 4300000, guid: b0aedc2611c72ab4bad81f9a4803f1b1, type: 3}
+--- !u!4 &573161253
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400002, guid: b0aedc2611c72ab4bad81f9a4803f1b1, type: 3}
+  m_PrefabInternal: {fileID: 1177980254}
+  m_GameObject: {fileID: 573161251}
+  m_LocalRotation: {x: -0.7071067, y: -0.000000021073422, z: 0.000000021073426, w: 0.7071068}
+  m_LocalPosition: {x: -0.113777846, y: 0.066403955, z: 0.000010587241}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 305868501}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &573161254
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300000, guid: b0aedc2611c72ab4bad81f9a4803f1b1,
+    type: 3}
+  m_PrefabInternal: {fileID: 1177980254}
+  m_GameObject: {fileID: 573161251}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: eded4f94c4a0e584d91cb6556e30c6d5, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &970140818
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 970140820}
+  - component: {fileID: 970140819}
+  m_Layer: 0
+  m_Name: Directional light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &970140819
+Light:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 970140818}
+  m_Enabled: 1
+  serializedVersion: 8
+  m_Type: 1
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 1
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &970140820
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 970140818}
+  m_LocalRotation: {x: 0.15131879, y: -0.19537139, z: 0.16975665, w: 0.9539997}
+  m_LocalPosition: {x: 0.24586296, y: 1.7440295, z: -10.478545}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1177980254
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: b0aedc2611c72ab4bad81f9a4803f1b1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -.141082346
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b0aedc2611c72ab4bad81f9a4803f1b1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.0163393
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b0aedc2611c72ab4bad81f9a4803f1b1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -8.91397953
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b0aedc2611c72ab4bad81f9a4803f1b1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: .0147964656
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b0aedc2611c72ab4bad81f9a4803f1b1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -.534616053
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b0aedc2611c72ab4bad81f9a4803f1b1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: .844883263
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b0aedc2611c72ab4bad81f9a4803f1b1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -.0117926477
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: b0aedc2611c72ab4bad81f9a4803f1b1, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: eded4f94c4a0e584d91cb6556e30c6d5, type: 2}
+    - target: {fileID: 2300004, guid: b0aedc2611c72ab4bad81f9a4803f1b1, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b4db8713603ea45459359e7752ec5376, type: 2}
+    - target: {fileID: 2300002, guid: b0aedc2611c72ab4bad81f9a4803f1b1, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b4db8713603ea45459359e7752ec5376, type: 2}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: b0aedc2611c72ab4bad81f9a4803f1b1, type: 3}
+  m_RootGameObject: {fileID: 305868498}
+  m_IsPrefabParent: 0
+--- !u!1 &1329735283
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100006, guid: b0aedc2611c72ab4bad81f9a4803f1b1, type: 3}
+  m_PrefabInternal: {fileID: 1177980254}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1329735285}
+  - component: {fileID: 1329735284}
+  - component: {fileID: 1329735286}
+  m_Layer: 0
+  m_Name: wind 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!33 &1329735284
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300004, guid: b0aedc2611c72ab4bad81f9a4803f1b1,
+    type: 3}
+  m_PrefabInternal: {fileID: 1177980254}
+  m_GameObject: {fileID: 1329735283}
+  m_Mesh: {fileID: 4300002, guid: b0aedc2611c72ab4bad81f9a4803f1b1, type: 3}
+--- !u!4 &1329735285
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400006, guid: b0aedc2611c72ab4bad81f9a4803f1b1, type: 3}
+  m_PrefabInternal: {fileID: 1177980254}
+  m_GameObject: {fileID: 1329735283}
+  m_LocalRotation: {x: -0.70710677, y: -0.000000084293696, z: -0.000000022476454,
+    w: 0.7071068}
+  m_LocalPosition: {x: -0.1300252, y: 0.008389214, z: 0.007415943}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 305868501}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &1329735286
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300004, guid: b0aedc2611c72ab4bad81f9a4803f1b1,
+    type: 3}
+  m_PrefabInternal: {fileID: 1177980254}
+  m_GameObject: {fileID: 1329735283}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: b4db8713603ea45459359e7752ec5376, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1673647916
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1673647921}
+  - component: {fileID: 1673647920}
+  - component: {fileID: 1673647919}
+  - component: {fileID: 1673647918}
+  - component: {fileID: 1673647917}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &1673647917
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1673647916}
+  m_Enabled: 1
+--- !u!124 &1673647918
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1673647916}
+  m_Enabled: 1
+--- !u!92 &1673647919
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1673647916}
+  m_Enabled: 1
+--- !u!20 &1673647920
+Camera:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1673647916}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0.019607844}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 0
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &1673647921
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1673647916}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!43 &1916008126
+Mesh:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: wind 03(Clone)
+  serializedVersion: 8
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 144
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 48
+    localAABB:
+      m_Center: {x: 0.2841927, y: -0.0036375057, z: 0.006458223}
+      m_Extent: {x: 0.2862207, y: 0.040565677, z: 0.12753345}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 00000100020002000100030002000300040001000500030001000600050007000600010004000300080004000800090003000a000800030005000a000b00090008000c0008000a000d000e000f000f000e0010000f00100011000e00120010000e0013001200140013000e001300150012001300160015001700160013001600180015001600190018001a0019001600110010001b0011001b001c0010001d001b00100012001d0012001e001d00120015001e0015001f001e00150018001f0020001c001b0021001b001d0022001d001e0023001e001f002400250018002400260025002700260024002600280025002600290028002a0029002600250028002b0025002b002c00180025002c0018002c002d002e002d002c002f002c002b00
+  m_Skin: []
+  m_VertexData:
+    m_CurrentChannels: 139
+    m_VertexCount: 48
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 24
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 32
+      format: 0
+      dimension: 4
+    m_DataSize: 2304
+    _typelessdata: 576d7b3e07636ebb4af6f7bd495ababa00000000f0ff7fbf000000000000803f74a87fbf669053bd9c1aba3a000080bf972daa3dd35b883c3076abbd9b275bbe7651483f69b015bf0000003e0000403f360e75bf681393be62750bbd000080bf576d7b3ee72ecd3c3476abbd6f29b4ba71e86c3fef03c2be000000000000403f06f27fbf14c314bc00f197bc000080bfc7f6333dd82ecd3cb89fd33b3d72b1bee921703f8735483b0000003e0000003f67896fbffae2b0be0ea192bd000080bf576d7b3efe41173daa9fd33bb18f1bbbc8ff7f3fffd686ba000000000000003fd1ff7fbfa8901bbb8b7c69b8000080bf52e804bb73636ebb05a115ba7ab47fbfeb4806bb3f6944bd0000803e0000003f656c0a3cccb17dbf53d808be000080bfc7f6333d29636ebb2d76abbde21a35bf13e0043cf4eb34bf0000803e0000403f3a3e12bfec6718bf6da4103f000080bf576d7b3e07636ebb4af6f7bd495ababa00000000f0ff7fbf0000003e0000803fd15063bf8a7cebbeef78a53a000080bf992daa3dbf5b883c24eac53dcef458be0dd7473fa986163f0000003e0000803e83a575bfd7808fbe62d2d73c000080bf596d7b3ed32ecd3c25eac53d0000000019ce6c3fb784c23e000000000000803e5af37fbfb092f4bbd6de943c000080bfd2f6333d1b646ebb24eac53d952e39bf2c0a98bce3b1303f0000803e0000803e931c0cbf6b1118bf3cee16bf000080bf5c6d7b3e98636ebb1d35093e8356baba7206a3b4f0ff7f3f000000000000000074a87fbf649053bd5e17baba000080bf5c6d7b3e98636ebb1d35093e8356baba7206a3b4f0ff7f3f0000003e00000000cc5063bf9e7cebbe417aa5ba000080bf576d7b3e07636ebb4af6f7bd495ababa00000000f0ff7fbf0000803e0000803fd650633f797cebbef278a5ba000080bf9c2daa3d98f4c3bc3276abbdc2f458be0fd747bfa78616bf0000c03e0000403f86a5753fc0808fbe08d1d73c000080bfc7f6333d29636ebb2d76abbde21a35bf13e0043cf4eb34bf0000803e0000403f57720d3f54001ebf30670fbf000080bfd4f6333dd66304bdb49fd33be4f9b4be51626fbfab46d23c0000c03e0000003fad036f3fbbb0b3be3aa3923d000080bf52e804bb73636ebb05a115ba7ab47fbfeb4806bb3f6944bd0000803e0000003fd47f91bbf1a87dbf5d100a3e000080bf596d7b3e650e35bd999fd33b668f1bbbc8ff7fbf95d9863a0000003f0000003fd1ff7f3f6c8f1bbb272a83b3000080bf596d7b3ed16304bd3776abbd0000000019ce6cbfb584c2be0000003f0000403f0000803f582e4533ec0bf0b3000080bf576d7b3e07636ebb4af6f7bd495ababa00000000f0ff7fbf0000c03e0000803f75a87f3f489053bd9c1ababa000080bf1355f33ed66304bd8b9fd33bed725d3e29f179bf849e58b40000203f0000003f29f1793fed725d3efcd5a233000080bff2e1d03e98f4c3bc3776abbd8ade0e3ea34752bf77920dbf0000203f0000403f7a007c3ff5d0333e29614cbc000080bf576d7b3e07636ebb4af6f7bd495ababa00000000f0ff7fbf0000003f0000803f75a87f3f4890533d9c1ababa000080bf9d06123f79636ebb989fd33b0000803f00000000000000000000403f0000003f000000000000803f9b53f133000080bf1555f33e29636ebb3876abbd75a6143fb6bb42b4a76b50bf0000403f0000403fec73433fc4c7b13ebf660b3f000080bf576d7b3e07636ebb4af6f7bd495ababa00000000f0ff7fbf0000203f0000803ff81a753ffec5933e166cb2ba000080bf9e2daa3da2f4c3bc22eac53d36e960beed7548bf85f6143f0000c03e0000803ea386753ff3a790befcfc94bc000080bfd2f6333d1b646ebb24eac53d952e39bf2c0a98bce3b1303f0000803e0000803e40250e3f7f1c1cbf80c6103f000080bf5e6d7b3edb6304bd22eac53d1b26b4ba71e86cbfe703c23e0000003f0000803eeeff7f3f95c8bfbafe4d6138000080bff3e1d03ea2f4c3bc22eac53d85de0e3ea94752bf6e920d3f0000203f0000803e7a007c3feed0333e8d614c3c000080bf1855f33ec9636ebb26eac53d76a6143fddcf25b5a56b503f0000403f0000803eee73433fbec7b13ebe660bbf000080bf5c6d7b3e98636ebb1d35093e8356baba7206a3b4f0ff7f3f0000803e00000000da50633f6a7cebbeeb70a53a000080bf5c6d7b3e98636ebb1d35093e8356baba7206a3b4f0ff7f3f0000c03e0000000074a87f3f619053bd5016ba3a000080bf5c6d7b3e98636ebb1d35093e8356baba7206a3b4f0ff7f3f0000003f0000000074a87f3f6a90533d5e17ba3a000080bf5c6d7b3e98636ebb1d35093e8356baba7206a3b4f0ff7f3f0000203f00000000fb1a753feec5933e6c6bb23a000080bf1555f33e29636ebb3876abbd75a6143fb6bb42b4a76b50bf0000403f0000403fea7343bfc8c7b13ec0660bbf000080bf1855f33ed82ecd3c669fd33b0c735d3e27f1793f00000000ffff5f3f0000003f28f179bf0d735d3eb277f3b3000080bff5e1d03ece5b883c3876abbd97de0e3ea147523f7b920dbfffff5f3f0000403f79007cbf07d1333e32614c3c000080bf576d7b3e07636ebb4af6f7bd495ababa00000000f0ff7fbf0000403f0000803ff71a75bf0ac6933e156cb23a000080bf576d7b3efe41173daa9fd33bb18f1bbbc8ff7f3fffd686baffff7f3f0000003fd1ff7fbfc48e1bbb91146a38000080bf576d7b3ee72ecd3c3476abbd6f29b4ba71e86c3fef03c2beffff7f3f0000403f5af37fbfd9a7c93bfbd3983c000080bf576d7b3e07636ebb4af6f7bd495ababa00000000f0ff7fbfffff5f3f0000803f74a87fbf6b90533d9c1aba3a000080bf596d7b3ed32ecd3c25eac53d0000000019ce6c3fb784c23effff7f3f0000803e5af37fbfbf92f43bdfde94bc000080bff8e1d03eba5b883c26eac53d9cde0e3e9c47523f7e920d3fffff5f3f0000803e78007cbf0ed1333ee2604cbc000080bf1855f33ec9636ebb26eac53d76a6143fddcf25b5a56b503f0000403f0000803ee97343bfc2c7b13ec3660b3f000080bf5c6d7b3e98636ebb1d35093e8356baba7206a3b4f0ff7f3f0000403f00000000f71a75bf0ac6933e8765b2ba000080bf5c6d7b3e98636ebb1d35093e8356baba7206a3b4f0ff7f3fffff5f3f0000000074a87fbf6790533d5016baba000080bf
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: 0.2841927, y: -0.0036375057, z: 0.006458223}
+    m_Extent: {x: 0.2862207, y: 0.040565677, z: 0.12753345}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshOptimized: 1
+--- !u!43 &1986718313
+Mesh:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: wind 2(Clone)
+  serializedVersion: 8
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 144
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 48
+    localAABB:
+      m_Center: {x: -0.28523055, y: -0.003637528, z: -0.006458223}
+      m_Extent: {x: 0.2862207, y: 0.040565677, z: 0.12753345}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 00000100020002000100030002000300040001000500030001000600050007000600010004000300080004000800090003000a000800030005000a000b00090008000c0008000a000d000e000f000f000e0010000f00100011000e00120010000e0013001200140013000e001300150012001300160015001700160013001600180015001600190018001a0019001600110010001b0011001b001c0010001d001b00100012001d0012001e001d00120015001e0015001f001e00150018001f0020001c001b0021001b001d0022001d001e0023001e001f002400250018002400260025002700260024002600280025002600290028002a0029002600250028002b0025002b002c00180025002c0018002c002d002e002d002c002f002c002b00
+  m_Skin: []
+  m_VertexData:
+    m_CurrentChannels: 139
+    m_VertexCount: 48
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 24
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 32
+      format: 0
+      dimension: 4
+    m_DataSize: 2304
+    _typelessdata: 667d7cbed7636ebb4af6f73d495aba3a90a22db4f0ff7f3f000000000000803f74a87f3f6a9053bde31ababa000080bfb74dacbdbd5b883c3076ab3d9a275b3e7251483f6bb0153f0000003e0000403f370e753f661393be30750b3d000080bf667d7cbed22ecd3c3676ab3d6e29b43a70e86c3ff403c23e000000000000403f06f27f3f05c314bce9f0973c000080bf073738bdcc2ecd3cb89fd3bb3d72b13ee921703f473248bb0000003e0000003f67896f3ffbe2b0be05a1923d000080bf667d7cbef841173da49fd3bbb18f1b3bc8ff7f3feddd863a000000000000003fd1ff7f3fa8901bbb106e6938000080bfa4c8813ad7636ebba4a0153a7ab47f3f164906bb3f69443d0000803e0000003f626c0abccdb17dbf42d8083e000080bf073738bdd7636ebb2b76ab3de21a353f76df043cf4eb343f0000803e0000403f3b3e123fe86718bf70a410bf000080bf667d7cbed7636ebb4af6f73d495aba3a90a22db4f0ff7f3f0000003e0000803fd150633f8a7cebbe6e7ba5ba000080bfb94dacbdbd5b883c24eac5bdcdf4583e0fd7473fa58616bf0000003e0000803e83a5753fd5808fbe6fd2d7bc000080bf697d7cbed22ecd3c24eac5bd000000001bce6c3fb184c2be000000000000803e5af37f3fbe92f4bbeade94bc000080bf123738bd29646ebb24eac5bd952e393fde0998bce3b130bf0000803e0000803e931c0c3f6c1118bf3aee163f000080bf6b7d7cbe85636ebb1d3509be8356ba3a00000000f0ff7fbf000000000000000074a87f3f679053bdd716ba3a000080bf6b7d7cbe85636ebb1d3509be8356ba3a00000000f0ff7fbf0000003e00000000cc50633f9d7cebbe9175a53a000080bf667d7cbed7636ebb4af6f73d495aba3a90a22db4f0ff7f3f0000803e0000803fd65063bf797cebbe7376a53a000080bfbc4dacbdaef4c3bc3076ab3dc4f4583e12d747bfa586163f0000c03e0000403f86a575bfbf808fbe0dd1d7bc000080bf073738bdd7636ebb2b76ab3de21a353f76df043cf4eb343f0000803e0000403f57720dbf56001ebf2e670f3f000080bf143738bddc6304bdcc9fd3bbe4f9b43e51626fbf1547d2bc0000c03e0000003fad036fbfbab0b3be42a392bd000080bfa4c8813ad7636ebba4a0153a7ab47f3f164906bb3f69443d0000803e0000003fd97f913bf0a87dbf6e100abe000080bf697d7cbe6b0e35bdb89fd3bb668f1b3bc8ff7fbf84e086ba0000003f0000003fd1ff7fbf6c8f1bbb74f59033000080bf697d7cbedc6304bd3676ab3d000000001bce6cbfb184c23e0000003f0000403f000080bf759c6f33b2d91134000080bf667d7cbed7636ebb4af6f73d495aba3a90a22db4f0ff7f3f0000c03e0000803f75a87fbf489053bd541aba3a000080bf1cddf3bedc6304bda49fd3bbed725dbe29f179bf000000000000203f0000003f29f179bfed725d3e900978b2000080bff969d1beaef4c3bc3676ab3d89de0ebea54752bf73920d3f0000203f0000403f7a007cbff2d0333e27614c3c000080bf667d7cbed7636ebb4af6f73d495aba3a90a22db4f0ff7f3f0000003f0000803f75a87fbf4a90533de41aba3a000080bfa14a12bfd7636ebba49fd3bb000080bf00000000000000000000403f0000003f000000000000803fe8910634000080bf1eddf3bed7636ebb3876ab3d75a614bff0aebbb4a76b503f0000403f0000403fed7343bfbfc7b13ebe660bbf000080bf667d7cbed7636ebb4af6f73d495aba3a90a22db4f0ff7f3f0000203f0000803ffa1a75bff6c5933ea86db23a000080bfbe4dacbda4f4c3bc24eac5bd36e9603eeb7548bf89f614bf0000c03e0000803ea38675bff1a790beb0fc943c000080bf123738bd29646ebb24eac5bd952e393fde0998bce3b130bf0000803e0000803e40250ebf7c1c1cbf83c610bf000080bf6e7d7cbedc6304bd24eac5bd1c26b43a71e86cbfef03c2be0000003f0000803eeeff7fbf87c8bfbacf5261b8000080bffb69d1bea4f4c3bc24eac5bd87de0ebea74752bf71920dbf0000203f0000803e7a007cbfecd0333eec604cbc000080bf21ddf3bed7636ebb26eac5bd76a614bfa94ef1b4a56b50bf0000403f0000803eee7343bfb8c7b13ebf660b3f000080bf6b7d7cbe85636ebb1d3509be8356ba3a00000000f0ff7fbf0000803e00000000da5063bf6a7cebbe9b75a5ba000080bf6b7d7cbe85636ebb1d3509be8356ba3a00000000f0ff7fbf0000c03e0000000074a87fbf619053bdd716baba000080bf6b7d7cbe85636ebb1d3509be8356ba3a00000000f0ff7fbf0000003f0000000074a87fbf6a90533dd716baba000080bf6b7d7cbe85636ebb1d3509be8356ba3a00000000f0ff7fbf0000203f00000000fb1a75bfeac5933e7c68b2ba000080bf1eddf3bed7636ebb3876ab3d75a614bff0aebbb4a76b503f0000403f0000403fea73433fc2c7b13ec1660b3f000080bf21ddf3becc2ecd3c669fd3bb0c735dbe27f1793f7cce3534ffff5f3f0000003f28f1793f0d735d3e4d692434000080bffd69d1beb85b883c3876ab3d96de0ebe9e47523f7e920d3fffff5f3f0000403f79007c3f06d1333ef5604cbc000080bf667d7cbed7636ebb4af6f73d495aba3a90a22db4f0ff7f3f0000403f0000803ff71a753f06c6933e856ab2ba000080bf667d7cbef841173da49fd3bbb18f1b3bc8ff7f3feddd863affff7f3f0000003fd1ff7f3fc48e1bbba8f669b8000080bf667d7cbed22ecd3c3676ab3d6e29b43a70e86c3ff403c23effff7f3f0000403f5af37f3fa2a7c93bd6d398bc000080bf667d7cbed7636ebb4af6f73d495aba3a90a22db4f0ff7f3fffff5f3f0000803f74a87f3f6d90533d541ababa000080bf697d7cbed22ecd3c24eac5bd000000001bce6c3fb184c2beffff7f3f0000803e5af37f3fc092f43bebde943c000080bf006ad1beb85b883c26eac5bd9dde0ebe9f47523f7c920dbfffff5f3f0000803e79007c3f0cd1333edd604c3c000080bf21ddf3bed7636ebb26eac5bd76a614bfa94ef1b4a56b50bf0000403f0000803eea73433fc0c7b13ec2660bbf000080bf6b7d7cbe85636ebb1d3509be8356ba3a00000000f0ff7fbf0000403f00000000f71a753f06c6933e7968b23a000080bf6b7d7cbe85636ebb1d3509be8356ba3a00000000f0ff7fbfffff5f3f0000000074a87f3f6990533dd716ba3a000080bf
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: -0.28523055, y: -0.003637528, z: -0.006458223}
+    m_Extent: {x: 0.2862207, y: 0.040565677, z: 0.12753345}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshOptimized: 1
